@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background-image
+{
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/01/23/12/laptop-2568545_960_720.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+}
+
+.text-6xl{font-size:4rem;line-height:4rem}
