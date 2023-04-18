@@ -127,8 +127,13 @@
     </nav>
 
     <div class="picture">
-        <img src="/images/Ribalta_Espaco_1.jpg" alt="" style="text-align: center; vertical-align: middle;">
+        <img src="/images/Ribalta_Espaco_1.jpg" alt="" >
     </div>
+    
+    <div class="picture">
+        <img src="/images/Primavera.jpg" alt="" >
+    </div>
+    
 
     <footer class="container mx-auto py-8 border-t border-gray-400">
         <div class="container flex px-3 py-8 ">
