@@ -21,6 +21,9 @@
         #menu-toggle:checked + #menu {
             display: block;
         }
+        *{
+            background: rgb(248, 242, 231);
+        }
         
         .hover\:grow {
             transition: all 0.3s;
@@ -73,7 +76,7 @@
 
 </head>
 
-<body class="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
+<body class="text-gray-600 work-sans leading-normal text-base tracking-normal">
 
     <!--Nav-->
     <nav id="header" class="w-full z-30 top-0 py-1">
@@ -121,7 +124,7 @@
 
     
 
-    <footer class="container mx-auto bg-white py-8 border-t border-gray-400">
+    <footer class="container mx-auto py-8 border-t border-gray-400">
         <div class="container flex px-3 py-8 ">
             <div class="w-full mx-auto flex flex-wrap">
                 <div class="flex w-full lg:w-1/2 ">
