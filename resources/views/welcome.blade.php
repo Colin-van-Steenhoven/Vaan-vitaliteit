@@ -5,9 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tailwind Starter Template - Nordic Shop: Tailwind Toolbox</title>
-    <meta name="description" content="Free open source Tailwind CSS Store template">
-    <meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,store template, shop layout, minimal, monochrome, minimalistic, theme, nordic">
     
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
 	
@@ -15,7 +12,7 @@
 
     <style>
         .work-sans {
-            font-family: "Roboto Condensed", sans-serif;
+            font-family: 'Work Sans', sans-serif;
             color: rgb(134, 32, 65);
         }
                 
@@ -62,9 +59,11 @@
             text-align: center;
             z-index: 10;
         }
-        .logo{
-            display: flex;
-            justify-content: left;
+        .primary-text-color{
+            color: rgba(148,45,113,1);
+        }
+        .text-header-menu{
+            color: #000000;
         }
         
         #carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
@@ -97,7 +96,7 @@
 
             <div class="hidden md:flex md:items-center md:w-auto w-full order-3 md:order-1" id="menu">
                 <nav>
-                    <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
+                    <ul class="md:flex items-center justify-between text-base text-header-menu font-bold pt-4 md:pt-0">
                         <li><a class="inline-block no-underline hover:text-black hover:underline py-2 px-4" href="#">Subject 1</a></li>
                         <li><a class="inline-block no-underline hover:text-black hover:underline py-2 px-4" href="#">Subject 2</a></li>
                         <li><a class="inline-block no-underline hover:text-black hover:underline py-2 px-4" href="#">Subject 3</a></li>
@@ -110,14 +109,14 @@
             <div class="order-1 md:order-2">
                 <a class="flex items-left tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl " href="#">
 
-                    <h1 class="logo">De Vaan Vitaliteit</h1>
+                    <h1 class="primary-text-color items-center">De Vaan Vitaliteit</h1>
                 </a>
             </div>
 
             <div class="order-2 md:order-3 flex items-center" id="nav-content">
 
                 <a class="inline-block no-underline hover:text-black" href="#">
-                    <svg class="fill-current hover:text-black" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <svg class="fill-current hover:text-black primary-text-color" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <circle fill="none" cx="12" cy="7" r="3" />
                         <path d="M12 2C9.243 2 7 4.243 7 7s2.243 5 5 5 5-2.243 5-5S14.757 2 12 2zM12 10c-1.654 0-3-1.346-3-3s1.346-3 3-3 3 1.346 3 3S13.654 10 12 10zM21 21v-1c0-3.859-3.141-7-7-7h-4c-3.86 0-7 3.141-7 7v1h2v-1c0-2.757 2.243-5 5-5h4c2.757 0 5 2.243 5 5v1H21z" />
                     </svg>
@@ -136,7 +135,7 @@
             <div class="w-full mx-auto flex flex-wrap">
                 <div class="flex w-full lg:w-1/2 ">
                     <div class="px-3 md:px-0">
-                        <h3 class="font-bold text-gray-900">About</h3>
+                        <h3 class="font-bold primary-text-color">About</h3>
                         <p class="py-4">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel mi ut felis tempus commodo nec id erat. Suspendisse consectetur dapibus velit ut lacinia.
                         </p>
@@ -144,7 +143,7 @@
                 </div>
                 <div class="flex w-full lg:w-1/2 lg:justify-end lg:text-right">
                     <div class="px-3 md:px-0">
-                        <h3 class="font-bold text-gray-900">Social</h3>
+                        <h3 class="font-bold primary-text-color">Social</h3>
                         <ul class="list-reset items-center pt-3">
                             <li>
                                 <a class="inline-block no-underline hover:text-black hover:underline py-1" href="#">Add social links</a>
