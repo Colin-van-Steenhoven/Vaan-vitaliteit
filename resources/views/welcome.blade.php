@@ -72,9 +72,8 @@
             color: #000;
             /*Set to match the Tailwind colour you want the active one to be */
         }
-        .picture{
-            text-align: center; 
-            vertical-align: center;
+        .first-image{
+            width: 850px;
         }
     </style>
 
@@ -125,11 +124,9 @@
             </div>
         </div>
     </nav>
-
-    <div class="picture">
-        <img src="/images/Ribalta_Espaco_1.jpg" alt="" style="text-align: center; vertical-align: middle;">
+    <div class="flex h-screen w-full justify-center items-center">
+        <img src="/images/Ribalta_Espaco_1.jpg" alt="">
     </div>
-
     <footer class="container mx-auto py-8 border-t border-gray-400">
         <div class="container flex px-3 py-8 ">
             <div class="w-full mx-auto flex flex-wrap">
