@@ -16,6 +16,7 @@
     <style>
         .work-sans {
             font-family: 'Work Sans', sans-serif;
+            color: rgb(134, 32, 65);
         }
                 
         #menu-toggle:checked + #menu {
