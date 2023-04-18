@@ -15,7 +15,7 @@
 
     <style>
         .work-sans {
-            font-family: 'Work Sans', sans-serif;
+            font-family: "Roboto Condensed", sans-serif;
             color: rgb(134, 32, 65);
         }
                 
@@ -73,6 +73,10 @@
             color: #000;
             /*Set to match the Tailwind colour you want the active one to be */
         }
+        .picture{
+            text-align: center; 
+            vertical-align: center;
+        }
     </style>
 
 </head>
@@ -123,7 +127,9 @@
         </div>
     </nav>
 
-    
+    <div class="picture">
+        <img src="/images/Ribalta_Espaco_1.jpg" alt="" style="text-align: center; vertical-align: middle;">
+    </div>
 
     <footer class="container mx-auto py-8 border-t border-gray-400">
         <div class="container flex px-3 py-8 ">
