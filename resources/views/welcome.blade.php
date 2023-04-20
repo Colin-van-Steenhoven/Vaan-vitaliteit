@@ -95,10 +95,9 @@
             width: 100%;
             position:0;
             bottom:0;
-            background: linear-gradient(to right, #b9aa87, #b9aa87);
+            background: #e0d8c5f3;
             color: #fff;
             padding: 100px 0 30px;
-            border-top-left-radius: 125px;
             font-size: 13px;
             line-height: 20px;
         }
