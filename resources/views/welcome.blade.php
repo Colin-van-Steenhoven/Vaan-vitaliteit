@@ -21,8 +21,11 @@
         #menu-toggle:checked + #menu {
             display: block;
         }
-        body header{
-            background: rgb(248, 242, 231);
+        .primary-background{
+            background: #F7EFDF;
+        }
+        .navbar-background{
+            background: #B9AA87;
         }
         
         .hover\:grow {
@@ -254,10 +257,10 @@
 
 </head>
 
-<body class="text-gray-600 work-sans leading-normal text-base tracking-normal">
+<body class="text-gray-600 work-sans leading-normal text-base tracking-normal primary-background">
 
     <!--Nav-->
-    <nav id="header" class="w-full z-30 top-0 sticky bg-white py-1">
+    <nav id="header" class="w-full z-30 top-0 sticky navbar-background py-1">
         <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-6 py-3">
 
             <label for="menu-toggle" class="cursor-pointer md:hidden block">
