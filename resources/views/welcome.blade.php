@@ -81,14 +81,47 @@
         .footer{
             background-color:rgb(134, 32, 65); 
         }
+        .homeimg{
+            margin-top: 900px;
+        }
+        #headerScroll {
+            background-color: transparent; 
+            padding: 15px; 
+            color: black;
+            text-align: center; 
+            font-size: 30px;
+            font-weight: bold;
+            position: fixed; 
+            width: 100%; 
+            top: 0;
+            z-index: 1;
+            animation: up 450ms linear ;
+            animation-play-state: paused;
+            animation-delay: calc(var(--scroll) * -1s);
+            }
+            @keyframes up {
+            from {
+                font-size: 90px;
+                padding: 350px 20px;
+            }
+            to {
+                font-size: 30px;
+                padding: 15px;
+            }
+            }
     </style>
+    <script>
+        window.addEventListener('scroll', () => {
+        document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+        }, false);
+    </script>
 
 </head>
 
 <body class="text-gray-600 work-sans leading-normal text-base tracking-normal">
 
     <!--Nav-->
-    <nav id="header" class="w-full z-30 top-0 py-1">
+    <nav id="header" class="w-full z-30 top-0 sticky bg-white py-1">
         <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-6 py-3">
 
             <label for="menu-toggle" class="cursor-pointer md:hidden block">
@@ -114,7 +147,7 @@
             <div class="order-1 md:order-2">
                 <a class="flex items-left tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl " href="#">
 
-                    <h1 class="primary-text-color items-center">De Vaan Vitaliteit</h1>
+                    <!-- <h1 class="primary-text-color items-center">De Vaan Vitaliteit</h1> -->
                 </a>
             </div>
 
@@ -129,15 +162,40 @@
 
             </div>
         </div>
+        <div id="headerScroll">
+            De Vaan Vitaliteit
+        </div>
+        
     </nav>
-    <div class="flex h-screen w-full justify-center items-center">
+    <div class=" homeimg flex h-screen w-full justify-center items-center ">
         <img src="/images/Ribalta_Espaco_1.jpg" alt="">
     </div>
 
     <div class="container mx-auto">
         <div class="relative flex h-screen">
-            <img src="/images/Primavera.jpg" alt="Image 1" class=" absolute object-cover">
-            <img src="/images/Primavera.jpg" alt="Image 2" class="top-26 left-26 absolute object-cover">
+            <img src="/images/square.png" alt="Image 1" class=" absolute h-4/5 -left-24 object-cover">
+            <img src="/images/square.png" alt="Image 2" class="absolute h-4/5 top-64 left-40  object-cover">
+            <div class="m-auto sm:m-auto absolute right-0 top-72 text-left w-2/5 block">
+                <h2 class="text-4xl font-extrabold text-black">lorem ipsum</h2>
+
+                <p class="py-8 text-xl font-bold italic text-gray-600">lorem ipsum</p>
+
+                <p class="font-extrabold text-black text-l pb-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptas, facilis nostrum delectus ipsam provident, minus nobis beatae deleniti eum quo quam architecto optio omnis quod repudiandae debitis atque iste.
+                </p>
+
+                <p class="font-extrabold text-black text-l pb-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloribus hic repudiandae accusantium commodi, facilis deserunt optio cumque cupiditate aliquid vitae quasi possimus ab quia id sint, non fugiat neque.
+                </p>
+
+                <p class="font-extrabold text-black text-l pb-9">
+                </p>
+
+            <!-- <a href="/blog/who-am-i-and-why-am-i-anonymous" class="uppercase bg-blue-500 text-gray-100 text-s 
+            font-extrabold py-3 px-8 rounded-3xl">
+                find out more
+            </a> -->
+        </div>
         </div>
     </div>
 
