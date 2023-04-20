@@ -30,7 +30,7 @@
             background: #F7EFDF;
         }
         .navbar-background{
-            background: #B9AA87;
+            background: #F7EFDF;
         }
         
         .hover\:grow {
@@ -227,23 +227,30 @@
                 flex-basis: 100%;
             }
         }
-        .homeimg{
-            margin-top: 900px;
-        }
         .waveline{
-            margin-top: 630px;
+            margin-top: 500px;
             margin-bottom: 0;
             margin-bottom: 0;
         }
         .bgafterwave{
-            height: 300px;
+            height: 1300px;
             background-color: #F7EFDF;
             padding-top: 0;
             margin-top: 0;
             z-index: 10;
+            margin-bottom: 100px;
+        }
+        .bgafterwave img{
+            margin-top: 80px;
+            width: 1500px;
+            height: 680px;
+        }
+        .infoblok{
+            height: 800px;
         }
         #headerScrollbg{
-            background-color: #2A9D8F; 
+            /* background-color: ;  */
+            background: linear-gradient(90deg, #2fac66  0%, #82C063 100%);
             padding: 13px; 
             color: transparent;
             text-align: center; 
@@ -253,7 +260,7 @@
             position: fixed; 
             width: 100%; 
             top: 0;
-            animation: up 280ms linear ;
+            animation: up 600ms linear ;
             animation-play-state: paused;
             animation-delay: calc(var(--scroll) * -1s);
         }
@@ -263,7 +270,7 @@
             color: black;
             text-align: center; 
             font-size: 30px;
-            font-family: 'Work Sans', sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-weight: 400;
             position: fixed; 
             width: 100%; 
@@ -307,9 +314,9 @@
             </label>
             <input class="hidden" type="checkbox" id="menu-toggle" />
 
-            <div class="hidden md:flex md:items-center md:w-auto w-full order-3 md:order-1 primary-text-color" id="menu">
+            <div class="hidden md:flex z-50 md:items-center md:w-auto w-full order-3 md:order-1 primary-text-color" id="menu">
                 <nav>
-                    <ul class="md:flex z-50 items-center justify-between text-base text-header-menu font-bold pt-4 md:pt-0">
+                    <ul class="md:flex  items-center justify-between text-base text-header-menu font-bold pt-4 md:pt-0">
                         <li><a class="inline-block no-underline hover:text-white primary-text-color hover:underline py-2 px-4" href="#">Subject 1</a></li>
                         <li><a class="inline-block no-underline hover:text-white primary-text-color hover:underline py-2 px-4" href="#">Subject 2</a></li>
                         <li><a class="inline-block no-underline hover:text-white primary-text-color hover:underline py-2 px-4" href="#">Subject 3</a></li>
@@ -366,10 +373,11 @@
         </g>
       </svg>
     </div>
-    <div class="bgafterwave relative">
-    </div>
-    <div class=" homeimg flex h-screen w-full justify-center items-center ">
+    <div class="bgafterwave relative flex h-screen w-full justify-center items-center ">
         <img src="/images/Ribalta_Espaco_1.jpg" alt="">
+    </div>
+    <div class=" ">
+        
     </div>
 
     <div class="container mx-auto">
@@ -399,6 +407,11 @@
         </div>
         </div>
     </div>
+    <!-- <div class="container ">
+        <div class="border-black border-solid ">
+            <h1>wadwaa</h1>
+        </div>
+    </div> -->
 
     <footer>
         <div class="row">
