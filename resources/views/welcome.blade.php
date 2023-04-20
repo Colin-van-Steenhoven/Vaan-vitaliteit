@@ -127,9 +127,14 @@
     <div class="flex h-screen w-full justify-center items-center">
         <img src="/images/Ribalta_Espaco_1.jpg" alt="">
     </div>
-    <div class="picture">
-        <img src="/images/Primavera.jpg" alt="" >
+
+    <div class="container mx-auto">
+        <div class="relative flex h-screen">
+            <img src="/images/Primavera.jpg" alt="Image 1" class=" absolute object-cover">
+            <img src="/images/Primavera.jpg" alt="Image 2" class="top-26 left-26 absolute object-cover">
+        </div>
     </div>
+
     <footer class="container mx-auto py-8 border-t border-gray-400">
         <div class="container flex px-3 py-8 ">
             <div class="w-full mx-auto flex flex-wrap">
