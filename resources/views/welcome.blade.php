@@ -70,10 +70,13 @@
             z-index: 10;
         }
         .primary-text-color{
-            color: rgba(148,45,113,1);
+            color: #4D4637;
         }
         .secondary-text-color{
-            color: rgb(248, 242, 231);
+            color: #585142;
+        }
+        .light-text-color{
+            color: #726D62;
         }
         .text-header-menu{
             color: #000000;
@@ -92,7 +95,7 @@
             width: 100%;
             position:0;
             bottom:0;
-            background: linear-gradient(to right, #f7efdf, #b9aa87);
+            background: linear-gradient(to right, #b9aa87, #b9aa87);
             color: #fff;
             padding: 100px 0 30px;
             border-top-left-radius: 125px;
@@ -138,20 +141,19 @@
         }
         .footerlist li a{
             text-decoration: none;
-            color: #fff;
         }
         form{
             padding-bottom: 15px;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            border-bottom: 1px solid #ccc;
+            border-bottom: 1px solid #4D4637;
             margin-bottom: 50px
         }
         form input{
             width: 100%;
             background: transparent;
-            color: #ccc;
+            color: #F7EFDF;
             border: 0;
             outline: none;
         }
@@ -163,7 +165,7 @@
         }
         form button .fas{
             font-size: 16px;
-            color: #ccc;
+            color: #4D4637;
         }
         .social-icons .fab{
             width: 40px;
@@ -172,15 +174,15 @@
             text-align: center;
             line-height: 40px;
             font-size: 20px;
-            color: #000;
-            background: #fff;
+            color: #585142;
+            background: #F7EFDF;
             margin-right: 15px;
             cursor: pointer;
         }
         hr{
             width: 90%;
             border: 0;
-            border-bottom: 1px solid #ccc;
+            border-bottom: 1px solid #4D4637;
             margin: 20px auto;
         }
         .copyright{
@@ -189,7 +191,7 @@
         .underline{
             width: 100%;
             height: 5px;
-            background: #767676;
+            background: #4D4637;
             border-radius: 3px;
             position: absolute;
             top: 25px;
@@ -199,7 +201,7 @@
         .underline span{
             width: 15px;
             height: 100%;
-            background: #fff;
+            background: #F7EFDF;
             border-radius: 3px;
             position: absolute;
             top: 0;
@@ -305,14 +307,14 @@
             </label>
             <input class="hidden" type="checkbox" id="menu-toggle" />
 
-            <div class="hidden z-50 md:flex md:items-center md:w-auto w-full order-3 md:order-1" id="menu">
+            <div class="hidden md:flex md:items-center md:w-auto w-full order-3 md:order-1 primary-text-color" id="menu">
                 <nav>
-                    <ul class="md:flex items-center justify-between text-base text-header-menu font-bold pt-4 md:pt-0">
-                        <li><a class="inline-block no-underline hover:text-black hover:underline py-2 px-4" href="#">Subject 1</a></li>
-                        <li><a class="inline-block no-underline hover:text-black hover:underline py-2 px-4" href="#">Subject 2</a></li>
-                        <li><a class="inline-block no-underline hover:text-black hover:underline py-2 px-4" href="#">Subject 3</a></li>
-                        <li><a class="inline-block no-underline hover:text-black hover:underline py-2 px-4" href="#">Subject 4</a></li>
-                        <li><a class="inline-block no-underline hover:text-black hover:underline py-2 px-4" href="#">Subject 5</a></li>
+                    <ul class="md:flex z-50 items-center justify-between text-base text-header-menu font-bold pt-4 md:pt-0">
+                        <li><a class="inline-block no-underline hover:text-white primary-text-color hover:underline py-2 px-4" href="#">Subject 1</a></li>
+                        <li><a class="inline-block no-underline hover:text-white primary-text-color hover:underline py-2 px-4" href="#">Subject 2</a></li>
+                        <li><a class="inline-block no-underline hover:text-white primary-text-color hover:underline py-2 px-4" href="#">Subject 3</a></li>
+                        <li><a class="inline-block no-underline hover:text-white primary-text-color hover:underline py-2 px-4" href="#">Subject 4</a></li>
+                        <li><a class="inline-block no-underline hover:text-white primary-text-color hover:underline py-2 px-4" href="#">Subject 5</a></li>
                     </ul>
                 </nav>
             </div>
@@ -375,19 +377,19 @@
             <img src="/images/square.png" alt="Image 1" class=" absolute h-4/5 -left-24 object-cover">
             <img src="/images/square.png" alt="Image 2" class="absolute h-4/5 top-64 left-40  object-cover">
             <div class="m-auto sm:m-auto absolute right-0 top-72 text-left w-2/5 block">
-                <h2 class="text-4xl font-extrabold text-black">lorem ipsum</h2>
+                <h2 class="text-4xl font-extrabold primary-text-color text-black primary-text-color">lorem ipsum</h2>
 
-                <p class="py-8 text-xl font-bold italic text-gray-600">lorem ipsum</p>
+                <p class="py-8 text-xl font-bold italic light-text-color">lorem ipsum</p>
 
-                <p class="font-extrabold text-black text-l pb-3">
+                <p class="font-extrabold secondary-text-color pb-3">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptas, facilis nostrum delectus ipsam provident, minus nobis beatae deleniti eum quo quam architecto optio omnis quod repudiandae debitis atque iste.
                 </p>
 
-                <p class="font-extrabold text-black text-l pb-3">
+                <p class="font-extrabold secondary-text-color pb-3">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloribus hic repudiandae accusantium commodi, facilis deserunt optio cumque cupiditate aliquid vitae quasi possimus ab quia id sint, non fugiat neque.
                 </p>
 
-                <p class="font-extrabold text-black text-l pb-9">
+                <p class="font-extrabold primary-text-color pb-9">
                 </p>
 
             <!-- <a href="/blog/who-am-i-and-why-am-i-anonymous" class="uppercase bg-blue-500 text-gray-100 text-s 
@@ -400,14 +402,14 @@
 
     <footer>
         <div class="row">
-            <div class="col h-40">
+            <div class="col h-40 secondary-text-color">
                 <img class="footer-logo" src="images/2023-01-18.png" alt="logo">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Neque animi sequi, modi, accusantium quasi facilis quaerat 
                     cum molestiae sapiente dolore magnam</p>
             </div>
-            <div class="col">
-                <h3>office <div class="underline"><span></span></div></h3>
+            <div class="col secondary-text-color">
+                <h3 class="primary-text-color">office <div class="underline"><span></span></div></h3>
                 <p>bedrijf naam</p>
                 <p>naam persoon</p>
                 <p>locatie</p>
@@ -415,8 +417,8 @@
                 <h4>+91 - 01234546789</h4>
             </div>
             <div class="col">
-                <h3>Links <div class="underline"><span></span></div></h3>
-                <ul class="footerlist">
+                <h3 class="primary-text-color">Links <div class="underline"><span></span></div></h3>
+                <ul class="secondary-text-color">
                     <li><a href="">Home</a></li>
                     <li><a href="">Services</a></li>
                     <li><a href="">About Us</a></li>
@@ -425,14 +427,14 @@
                 </ul>
             </div>
             <div class="col">
-                <h3>Newsletter <div class="underline"><span></span></div></h3>
-                <form>
+                <h3 class="primary-text-color">Newsletter <div class="underline"><span></span></div></h3>
+                <form class="secondary-text-color">
                     <i class="fas fa-regular fa-envelope"></i>
                     <input type="email" placeholder="Enter your email id" required>
-                    <button type="subtim"><i class="fas fa-solid fa-arrow-right"></i></button>
+                    <button type="subtim"><i class="fas fa-solid fa-arrow-right "></i></button>
                 </form>
-                <div class="social-icons">
-                    <i class="fab fa-brands fa-facebook"></i>
+                <div class="social-icons secondary-text-color">
+                    <i class="fab fa-brands fa-facebook "></i>
                     <i class="fab fa-brands fa-twitter"></i>
                     <i class="fab fa-brands fa-whatsapp"></i>
                     <i class="fab fa-brands fa-pinterest"></i>
@@ -440,7 +442,7 @@
             </div>
         </div>
         <hr>
-        <p><div class="copyright">copyright boelshit 2023 bla bla bla</div></p>
+        <p><div class="copyright light-text-color">copyright boelshit 2023 bla bla bla</div></p>
     </footer>
    
 
