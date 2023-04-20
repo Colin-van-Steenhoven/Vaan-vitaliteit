@@ -240,7 +240,7 @@
             background-color: #F7EFDF;
             padding-top: 0;
             margin-top: 0;
-            z-index: 40;
+            z-index: 10;
         }
         #headerScrollbg{
             background-color: #2A9D8F; 
