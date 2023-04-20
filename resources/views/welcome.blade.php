@@ -25,6 +25,7 @@
         }
         body{
             background: #F7EFDF;
+            z-index: 1;
         }
         .primary-background{
             background: #F7EFDF;
@@ -36,9 +37,6 @@
         .hover\:grow {
             transition: all 0.3s;
             transform: scale(1);
-        }
-        #header{
-            background-color: #F7EFDF;
         }
         
         .hover\:grow:hover {
@@ -244,8 +242,9 @@
             font-weight: 400;
             position: fixed; 
             width: 100%; 
+            z-index: -10;
             top: 0;
-            animation: up 280ms linear ;
+            animation: up 270ms linear ;
             animation-play-state: paused;
             animation-delay: calc(var(--scroll) * -1s);
         }
