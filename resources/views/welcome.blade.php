@@ -10,6 +10,8 @@
 	
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400&display=swap" rel="stylesheet">
 
+    
+
     <style>
         .work-sans {
             font-family: 'Work Sans', sans-serif;
@@ -78,11 +80,145 @@
         .first-image{
             width: 850px;
         }
-        .footer{
-            background-color:rgb(134, 32, 65); 
+        footer{
+            width: 100%;
+            position:0;
+            bottom:0;
+            background: linear-gradient(to right, #f7efdf, #b9aa87);
+            color: #fff;
+            padding: 100px 0 30px;
+            border-top-left-radius: 125px;
+            font-size: 13px;
+            line-height: 20px;
+        }
+        .footer-logo{
+            height: 60px;
+            width: 60px;
+        }
+        .row{
+            width: 85%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+        .col{
+            flex-basis: 25%;
+            padding: 10px;
+        }
+        .col:nth-child(2), .col:nth-child(3){
+            flex-basis: 15%;
+        }
+        .logo{
+            width: 80px;
+            margin-bottom: 30px
+        }
+        .col h3{
+            width: fit-content;
+            margin-bottom: 40px;
+            position: relative;
+        }
+        .email-id{
+            width:fit-content;
+            border-bottom: 1px solid #ccc;
+            margin: 20px 0;
+        }
+        ul li{
+            list-style: none;
+            margin-bottom: 12px
+        }
+        ul li a{
+            text-decoration: none;
+            color: #fff;
+        }
+        form{
+            padding-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 50px
+        }
+        form input{
+            width: 100%;
+            background: transparent;
+            color: #ccc;
+            border: 0;
+            outline: none;
+        }
+        form button{
+            background: transparent;
+            border: 0;
+            outline: none;
+            cursor: pointer;
+        }
+        form button .fas{
+            font-size: 16px;
+            color: #ccc;
+        }
+        .social-icons .fab{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            font-size: 20px;
+            color: #000;
+            background: #fff;
+            margin-right: 15px;
+            cursor: pointer:
+        }
+        hr{
+            width: 90%;
+            border: 0;
+            border-bottom: 1px solid #ccc;
+            margin: 20px auto;
+        }
+        .copyright{
+            text-align: center;
+        }
+        .underline{
+            width: 100%;
+            height: 5px;
+            background: #767676;
+            border-radius: 3px;
+            position: absolute;
+            top: 25px;
+            left: 0;
+            overflow: hidden;
+        }
+        .underline span{
+            width: 15px;
+            height: 100%;
+            background: #fff;
+            border-radius: 3px;
+            position: absolute;
+            top: 0;
+            left: 10px;
+            animation: moving 2s linear infinite;
+        }
+        @keyframes moving{
+            0%{
+                left: -20px;
+            }
+            100%{
+                left: 100px;
+            }
+        }
+        @media (max-width: 700px){
+            footer{
+                bottom: unset;
+            }
+            .col{
+                flex-basis: 100%;
+            }
+            .col:nth-child(2), .col:nth-child(3){
+                flex-basis: 100%;
+            }
         }
     </style>
-
+<script src="https://kit.fontawesome.com/82d3b6429e.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="text-gray-600 work-sans leading-normal text-base tracking-normal">
@@ -136,32 +272,51 @@
     <div class="picture">
         <img src="/images/Primavera.jpg" alt="" >
     </div>
-    <div class="footer">
-        <footer class="container mx-auto py-8 border-t border-gray-400 bg-#942D71">
-            <div class="container flex px-3 py-8 ">
-                <div class="w-full mx-auto flex flex-wrap ">
-                    <div class="flex w-full lg:w-1/2  ">
-                        <div class="px-3 md:px-0">
-                            <h3 class="font-bold secondary-text-color">About</h3>
-                            <p class="py-4  secondary-text-color">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel mi ut felis tempus commodo nec id erat. Suspendisse consectetur dapibus velit ut lacinia.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="flex w-full lg:w-1/2 lg:justify-end lg:text-right">
-                        <div class="px-3 md:px-0">
-                            <h3 class="font-bold  secondary-text-color">Social</h3>
-                            <ul class="list-reset items-center pt-3">
-                                <li>
-                                    <a class="inline-block no-underline  secondary-text-color hover:text-black hover:underline py-1" href="#">Add social links</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+
+    <footer>
+        <div class="row">
+            <div class="col h-40">
+                <img class="footer-logo" src="images/2023-01-18.png" alt="logo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Neque animi sequi, modi, accusantium quasi facilis quaerat 
+                    cum molestiae sapiente dolore magnam</p>
+            </div>
+            <div class="col">
+                <h3>office <div class="underline"><span></span></div></h3>
+                <p>bedrijf naam</p>
+                <p>naam persoon</p>
+                <p>locatie</p>
+                <p class="email-id">vaan-vitaliteit@outlook.com</p>
+                <h4>+91 - 01234546789</h4>
+            </div>
+            <div class="col">
+                <h3>Links <div class="underline"><span></span></div></h3>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Newsletter <div class="underline"><span></span></div></h3>
+                <form>
+                    <i class="fas fa-regular fa-envelope"></i>
+                    <input type="email" placeholder="Enter your email id" required>
+                    <button type="subtim"><i class="fas fa-solid fa-arrow-right"></i></button>
+                </form>
+                <div class="social-icons">
+                    <i class="fab fa-brands fa-facebook"></i>
+                    <i class="fab fa-brands fa-twitter"></i>
+                    <i class="fab fa-brands fa-whatsapp"></i>
+                    <i class="fab fa-brands fa-pinterest"></i>
                 </div>
             </div>
-        </footer>
-    </div>
+        </div>
+        <hr>
+        <p><div class="copyright">copyright boelshit 2023 bla bla bla</div></p>
+    </footer>
    
 
 </body>
