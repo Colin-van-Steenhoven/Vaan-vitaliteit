@@ -19,7 +19,7 @@
         #menu-toggle:checked + #menu {
             display: block;
         }
-        *{
+        body header{
             background: rgb(248, 242, 231);
         }
         
@@ -62,6 +62,9 @@
         .primary-text-color{
             color: rgba(148,45,113,1);
         }
+        .secondary-text-color{
+            color: rgb(248, 242, 231);
+        }
         .text-header-menu{
             color: #000000;
         }
@@ -74,6 +77,9 @@
         }
         .first-image{
             width: 850px;
+        }
+        .footer{
+            background-color:rgb(134, 32, 65); 
         }
     </style>
 
@@ -130,30 +136,33 @@
     <div class="picture">
         <img src="/images/Primavera.jpg" alt="" >
     </div>
-    <footer class="container mx-auto py-8 border-t border-gray-400">
-        <div class="container flex px-3 py-8 ">
-            <div class="w-full mx-auto flex flex-wrap">
-                <div class="flex w-full lg:w-1/2 ">
-                    <div class="px-3 md:px-0">
-                        <h3 class="font-bold primary-text-color">About</h3>
-                        <p class="py-4">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel mi ut felis tempus commodo nec id erat. Suspendisse consectetur dapibus velit ut lacinia.
-                        </p>
+    <div class="footer">
+        <footer class="container mx-auto py-8 border-t border-gray-400 bg-#942D71">
+            <div class="container flex px-3 py-8 ">
+                <div class="w-full mx-auto flex flex-wrap ">
+                    <div class="flex w-full lg:w-1/2  ">
+                        <div class="px-3 md:px-0">
+                            <h3 class="font-bold secondary-text-color">About</h3>
+                            <p class="py-4  secondary-text-color">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel mi ut felis tempus commodo nec id erat. Suspendisse consectetur dapibus velit ut lacinia.
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="flex w-full lg:w-1/2 lg:justify-end lg:text-right">
-                    <div class="px-3 md:px-0">
-                        <h3 class="font-bold primary-text-color">Social</h3>
-                        <ul class="list-reset items-center pt-3">
-                            <li>
-                                <a class="inline-block no-underline hover:text-black hover:underline py-1" href="#">Add social links</a>
-                            </li>
-                        </ul>
+                    <div class="flex w-full lg:w-1/2 lg:justify-end lg:text-right">
+                        <div class="px-3 md:px-0">
+                            <h3 class="font-bold  secondary-text-color">Social</h3>
+                            <ul class="list-reset items-center pt-3">
+                                <li>
+                                    <a class="inline-block no-underline  secondary-text-color hover:text-black hover:underline py-1" href="#">Add social links</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
+   
 
 </body>
 
