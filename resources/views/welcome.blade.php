@@ -25,7 +25,6 @@
         }
         body{
             background: #F7EFDF;
-            z-index: 1;
         }
         .primary-background{
             background: #F7EFDF;
@@ -133,11 +132,11 @@
             border-bottom: 1px solid #ccc;
             margin: 20px 0;
         }
-        ul li{
+        .footerlist li{
             list-style: none;
             margin-bottom: 12px
         }
-        ul li a{
+        .footerlist li a{
             text-decoration: none;
             color: #fff;
         }
@@ -231,6 +230,15 @@
         }
         .waveline{
             margin-top: 630px;
+            margin-bottom: 0;
+            margin-bottom: 0;
+        }
+        .bgafterwave{
+            height: 300px;
+            background-color: #F7EFDF;
+            padding-top: 0;
+            margin-top: 0;
+            z-index: 40;
         }
         #headerScrollbg{
             background-color: #2A9D8F; 
@@ -242,9 +250,8 @@
             font-weight: 400;
             position: fixed; 
             width: 100%; 
-            z-index: -10;
             top: 0;
-            animation: up 270ms linear ;
+            animation: up 280ms linear ;
             animation-play-state: paused;
             animation-delay: calc(var(--scroll) * -1s);
         }
@@ -357,6 +364,8 @@
         </g>
       </svg>
     </div>
+    <div class="bgafterwave relative">
+    </div>
     <div class=" homeimg flex h-screen w-full justify-center items-center ">
         <img src="/images/Ribalta_Espaco_1.jpg" alt="">
     </div>
@@ -407,7 +416,7 @@
             </div>
             <div class="col">
                 <h3>Links <div class="underline"><span></span></div></h3>
-                <ul>
+                <ul class="footerlist">
                     <li><a href="">Home</a></li>
                     <li><a href="">Services</a></li>
                     <li><a href="">About Us</a></li>
