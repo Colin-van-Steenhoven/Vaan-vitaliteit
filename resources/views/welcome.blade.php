@@ -290,6 +290,23 @@
 
             }
             }
+            .contact_button{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 6px 14px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+                border-radius: 6px;
+                border: none;
+
+                color: #fff;
+                background: black;
+                background-origin: border-box;
+                box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+                user-select: none;
+                -webkit-user-select: none;
+                touch-action: manipulation;
+            }
     </style>
     <script>
         window.addEventListener('scroll', () => {
@@ -395,6 +412,14 @@
                 <p class="font-extrabold secondary-text-color pb-3">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloribus hic repudiandae accusantium commodi, facilis deserunt optio cumque cupiditate aliquid vitae quasi possimus ab quia id sint, non fugiat neque.
                 </p>
+
+                <div class="contact_button">
+                    <button><a href="{{ route('contact') }}"> test</a></button>
+
+                    
+                    
+                </div>
+                
 
                 <p class="font-extrabold primary-text-color pb-9">
                 </p>
