@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
 
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+
+    <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
 	
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400&display=swap" rel="stylesheet">
 
@@ -21,7 +23,9 @@
             font-family: 'Work Sans', sans-serif;
             color: rgb(134, 32, 65);
         }
-                
+        .caveat{
+            font-family: 'Caveat';font-size: 22px;
+        }
         #menu-toggle:checked + #menu {
             display: block;
         }
@@ -234,15 +238,17 @@
             margin-bottom: 0;
         }
         .bgafterwave{
-            height: 1300px;
+            height: 800px;
             background-color: rgb(248, 242, 231);
             padding-top: 0;
             margin-top: 0;
-            z-index: 10;
             margin-bottom: 100px;
+            z-index: 10;
+            
         }
         .bgafterwave img{
-            margin-top: 80px;
+            margin-top: 0;
+            padding-top: 0;
             width: 1500px;
             height: 680px;
         }
@@ -268,10 +274,10 @@
         #headerScroll {
             background-color: transparent; 
             padding: 13px; 
-            color: black;
+            color: #4D4637;
             text-align: center; 
             font-size: 30px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'caveat';
             font-weight: 400;
             position: fixed; 
             width: 100%; 
@@ -370,7 +376,7 @@
     </nav>
  
         <div id="headerScrollbg">
-            <h1 class="">De Vaan Vitaliteit</h1>
+            <h1 class="caveat">De Vaan Vitaliteit</h1>
         </div>
     <div class="waveline  relative z-10">
       <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
