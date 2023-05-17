@@ -14,6 +14,8 @@
 
     <script src="https://kit.fontawesome.com/82d3b6429e.js" crossorigin="anonymous"></script>
 
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    
     <style>
         .work-sans {
             font-family: 'Work Sans', sans-serif;
@@ -320,7 +322,7 @@
 
     <!--Nav-->
     <nav id="header" class="w-full z-30 top-0 sticky navbar-background py-1">
-        <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-6 py-3">
+        <div id="navbar" class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-6 py-3">
 
             <label for="menu-toggle" class="cursor-pointer md:hidden block">
                 <svg class="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
@@ -333,11 +335,11 @@
             <div class="hidden md:flex z-50 md:items-center md:w-auto w-full order-3 md:order-1 primary-text-color" id="menu">
                 <nav>
                     <ul class="md:flex  items-center justify-between text-base text-header-menu font-bold pt-4 md:pt-0">
-                        <li><a class="inline-block no-underline hover:text-white primary-text-color hover:underline py-2 px-4" href="#">Subject 1</a></li>
-                        <li><a class="inline-block no-underline hover:text-white primary-text-color hover:underline py-2 px-4" href="#">Subject 2</a></li>
-                        <li><a class="inline-block no-underline hover:text-white primary-text-color hover:underline py-2 px-4" href="#">Subject 3</a></li>
-                        <li><a class="inline-block no-underline hover:text-white primary-text-color hover:underline py-2 px-4" href="#">Subject 4</a></li>
-                        <li><a class="inline-block no-underline hover:text-white primary-text-color hover:underline py-2 px-4" href="#">Subject 5</a></li>
+                        <li><a class="inline-block no-underline hover:text-white primary-text-color hover:underline py-2 px-4" href="#">Home</a></li>
+                        <li><a class="inline-block no-underline hover:text-white primary-text-color hover:underline py-2 px-4" href="#main1">bedrijf</a></li>
+                        <li><a class="inline-block no-underline hover:text-white primary-text-color hover:underline py-2 px-4" href="#">contact</a></li>
+                        <li><a class="inline-block no-underline hover:text-white primary-text-color hover:underline py-2 px-4" href="#footer1">Extra info</a></li>
+                        <li><a class="inline-block no-underline hover:text-white primary-text-color hover:underline py-2 px-4" href="#"></a></li>
                     </ul>
                 </nav>
             </div>
@@ -397,7 +399,7 @@
     </div>
 
     <div class="container mx-auto">
-        <div class="relative flex h-screen">
+        <div id="main1" class="relative flex h-screen">
             <img src="/images/square.png" alt="Image 1" class=" absolute h-4/5 -left-24 object-cover">
             <img src="/images/square.png" alt="Image 2" class="absolute h-4/5 top-64 left-40  object-cover">
             <div class="m-auto sm:m-auto absolute right-0 top-72 text-left w-2/5 block">
@@ -438,7 +440,7 @@
     </div> -->
 
     <footer>
-        <div class="row">
+        <div id="footer1" class="row">
             <div class="col h-40 secondary-text-color">
                 <img class="footer-logo" src="images/2023-01-18.png" alt="logo">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -482,6 +484,9 @@
         <p><div class="copyright light-text-color">copyright boelshit 2023 bla bla bla</div></p>
     </footer>
    
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
 
 </body>
 
