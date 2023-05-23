@@ -288,6 +288,101 @@
                 -webkit-user-select: none;
                 touch-action: manipulation;
             }
+            body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.slider {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow: hidden;
+}
+
+.slider .inner-wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+.slider .inner-wrapper .slide {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+.slider .inner-wrapper .slides {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.slider .inner-wrapper .slide:not(#s1) {
+    display: none;
+}
+
+.slider .inner-wrapper .slide:nth-of-type(1) {
+    background-image: url("https://placehold.jp/1920x1080.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider .inner-wrapper .slide:nth-of-type(2) {
+    background-image: url("https://placehold.jp/1920x1080.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider .inner-wrapper .slide:nth-of-type(3) {
+    background-image: url("https://placehold.jp/1920x1080.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider .inner-wrapper .slide:nth-of-type(4) {
+    background-image: url("https://placehold.jp/1920x1080.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider .inner-wrapper .slide:nth-of-type(5) {
+    background-image: url("https://placehold.jp/1920x1080.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slider .inner-wrapper .controls {
+    position: absolute;
+    top: 0;
+    /* left: 100; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.slider .inner-wrapper button {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    z-index: 11;
+    background: none;
+    border: none;
+    font-size: 86px;
+    color: #F7EFDF;
+    display: flex;
+    align-items: center;
+}
+
+.slider .inner-wrapper .next {
+   right: 44px;
+}
+
+.slider .inner-wrapper .prev {
+    left: 25px;
+}
     </style>
     <script>
         window.addEventListener('scroll', () => {
@@ -329,12 +424,65 @@
             <h1 class="">De Vaan Vitaliteit</h1>
         </div>
     </nav>
-
-    <div class="bgafterwave relative flex h-screen w-full justify-center items-center ">
-        <img src="/images/Ribalta_Espaco_1.jpg" alt="">
-    </div>
+        <div class="slider">
+            <div class="inner-wrapper">
+                <div class="slides">
+                    <div class="slide active" id="s1"><h1 class="slide1-text">Mijn werk</h1></div>
+                    <div class="slide" id="s2"></div>
+                    <div class="slide" id="s3"></div>
+                    <div class="slide" id="s4"></div>
+                </div>
+                <div class="controls">
+                    <button class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+                    <button class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
     <script>
         var scroll = new SmoothScroll('a[href*="#"]');
+        $(function slider() {
+    'use strict';
+     var auto;
+    $('.next').click(function () {
+        $('.slider .active').each(function () {
+            if (!$(this).is(':last-child')) {
+                $(this).hide('slide', {
+                    direction: 'left'
+                }, 500).removeClass('active').next().addClass('active').show('slide', {
+                    direction: 'right'
+                }, 500);
+            } else {
+                $(this).removeClass('active').hide('slide', {
+                    direction: 'left'
+                }, 500);
+                $('.slide').first().addClass('active').show('slide', {
+                    direction: 'right'
+                }, 500);
+            }
+        });
+    });
+    $('.prev').click(function () {
+        $('.slider .active').each(function () {
+            if (!$(this).is(':first-child')) {
+                $(this).removeClass('active').hide('slide', {
+                    direction: 'right'
+                }, 500).prev().addClass('active').show('slide', {
+                    direction: 'left'
+                }, 500);
+            } else {
+                $(this).hide('slide', {
+                    direction: 'right'
+                }).removeClass('active');
+                $('.slide').last().addClass('active').show('slide', {
+                    direction: 'left'
+                }, 500);
+            }
+        });
+    });
+});
     </script>
 
 </body>
