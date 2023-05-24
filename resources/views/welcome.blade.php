@@ -256,7 +256,6 @@
             background-color: rgb(248, 242, 231);
             padding-top: 0;
             margin-top: 0;
-            margin-bottom: 100px;
             z-index: 10;
             
         }
@@ -271,7 +270,7 @@
         }
         #headerScrollbg{
             /* background-color: ;  */
-            background: #e0d8c5f3;
+            background: linear-gradient(90deg, #e4ddcdf3  0%, #e0d8c5f3 100%);
             padding: 13px; 
             color: transparent;
             text-align: center; 
@@ -346,7 +345,6 @@
         .flex-container{
             display: flex;
             justify-content: space-around;
-            min-height: 1000px;
         }
 
         .images, .text{
