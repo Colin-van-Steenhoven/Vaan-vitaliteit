@@ -463,7 +463,7 @@
                 <h3 class="primary-text-color">Office <div class="underline"><span></span></div></h3>
                 <p>De Vaan Vitaliteit</p>
                 <p>Merel de Vaan</p>
-                <a href="https://www.google.com/maps/place/De+Vaan+Vitaliteit/@51.5867814,4.7824298,17z/data=!3m1!4b1!4m16!1m9!4m8!1m0!1m6!1m2!1s0xf3517659e88f923:0x35d722a8ab4883cd!2sde+vaan+vitaliteit!2m2!1d4.7850101!2d51.5867781!3m5!1s0xf3517659e88f923:0x35d722a8ab4883cd!8m2!3d51.5867781!4d4.7850101!16s%2Fg%2F11tdrlmx20"><p>Claudius Prinsenlaan 12, 4811 DK Breda</p></a>
+                <a href="https://www.google.com/maps/place/De+Vaan+Vitaliteit/@51.5867814,4.7824352,17z/data=!4m6!3m5!1s0xf3517659e88f923:0x35d722a8ab4883cd!8m2!3d51.5867781!4d4.7850101!16s%2Fg%2F11tdrlmx20"><p>Claudius Prinsenlaan 12, 4811 DK Breda</p></a>
                 <a href="mailto:vaan-vitaliteit@outlook.com"> <p class="email-id">vaan-vitaliteit@outlook.com</p> </a>  
                 <a href="tel:123-456-7890"> <h4>+31 - 6 12345678</h4> </a>
             </div>
