@@ -409,7 +409,7 @@
             <div class="hidden md:flex z-50 md:items-center md:w-auto w-full order-3 md:order-1 primary-text-color" id="menu">
                 <nav>
                     <ul class="md:flex  items-center justify-between text-base text-header-menu font-bold pt-4 md:pt-0">
-                        <li><a class="inline-block no-underline hover:underline primary-text-color hover:underline py-2 px-4" href="#">Home</a></li>
+                        <li><a class="inline-block no-underline hover:underline primary-text-color hover:underline py-2 px-4" href="/">Home</a></li>
                         <li><a class="inline-block no-underline hover:underline primary-text-color hover:underline py-2 px-4" href="#main1">Bedrijf</a></li>
                         <li><a class="inline-block no-underline hover:underline primary-text-color hover:underline py-2 px-4" href="#">Contact</a></li>
                         <li><a class="inline-block no-underline hover:underline primary-text-color hover:underline py-2 px-4" href="#footer1">Extra info</a></li>
