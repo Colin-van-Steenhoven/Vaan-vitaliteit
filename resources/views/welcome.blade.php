@@ -203,6 +203,16 @@
             left: 0;
             overflow: hidden;
         }
+        .underline span{
+            width: 15px;
+            height: 100%;
+            background: #F7EFDF;
+            border-radius: 3px;
+            position: absolute;
+            top: 0;
+            left: 10px;
+            animation: moving 2s linear infinite;
+        }
         @keyframes moving{
             0%{
                 left: -20px;
