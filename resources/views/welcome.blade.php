@@ -203,16 +203,6 @@
             left: 0;
             overflow: hidden;
         }
-        .underline span{
-            width: 15px;
-            height: 100%;
-            background: #F7EFDF;
-            border-radius: 3px;
-            position: absolute;
-            top: 0;
-            left: 10px;
-            animation: moving 2s linear infinite;
-        }
         @keyframes moving{
             0%{
                 left: -20px;
@@ -397,8 +387,8 @@
 
     <div class="container mx-auto">
         <div id="main1" class="relative flex h-screen">
-            <img src="/images/square.png" alt="Image 1" class=" absolute h-4/5 -left-24 object-cover">
-            <img src="/images/square.png" alt="Image 2" class="absolute h-4/5 top-64 left-40  object-cover">
+            <img src="/images/person.png" alt="Image 1" class=" absolute h-1/2 -left-24 object-cover">
+            <img src="/images/company.jpg" alt="Image 2" class="absolute h-1/2 top-64 left-40  object-cover">
             <div class="m-auto sm:m-auto absolute right-0 top-72 text-left w-2/5 block">
                 <h2 class="text-4xl font-extrabold primary-text-color text-black primary-text-color">lorem ipsum</h2>
 
@@ -478,7 +468,7 @@
             </div>
         </div>
         <hr>
-        <p><div class="copyright light-text-color">copyright boelshit 2023 bla bla bla</div></p>
+        <p><div class="copyright light-text-color">copyright</div></p>
     </footer>
    
     <script>
