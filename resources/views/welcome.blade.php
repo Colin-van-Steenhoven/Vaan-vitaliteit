@@ -415,11 +415,10 @@
     <div class="bgafterwave relative flex justify-center items-center">
         <img src="/images/Ribalta_Espaco_1.jpg" alt="">
     </div>
-
     <div class="container mx-auto">
         <div id="main1" class="relative h-screen left-50">
-            <img src="/images/person.png" alt="Image 1" class=" absolute h-1/2 -left-24 object-cover">
-            <img src="/images/company.jpg" alt="Image 2" class="absolute h-1/2 top-64 left-40 object-cover">
+                <img src="/images/person.png" alt="Image 1" class=" absolute h-1/2 -left-24 object-cover">
+                <img src="/images/company.jpg" alt="Image 2" class="absolute h-1/2 top-64 left-40 object-cover">
             <div class="m-auto sm:m-auto absolute right-0 top-72 text-left w-2/5 block">
                 <h2 class="text-4xl font-extrabold primary-text-color text-black primary-text-color">lorem ipsum</h2>
 
@@ -464,7 +463,7 @@
                 <h3 class="primary-text-color">Office <div class="underline"><span></span></div></h3>
                 <p>De Vaan Vitaliteit</p>
                 <p>Merel de Vaan</p>
-                <a href="https://www.google.com/maps/dir/51.7318429,4.841199/de+vaan+vitaliteit/@51.6586148,4.6920868,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xf3517659e88f923:0x35d722a8ab4883cd!2m2!1d4.7850101!2d51.5867781"><p>Claudius Prinsenlaan 12, 4811 DK Breda</p></a>
+                <a href="https://www.google.com/maps/place/De+Vaan+Vitaliteit/@51.5867814,4.7824298,17z/data=!3m1!4b1!4m16!1m9!4m8!1m0!1m6!1m2!1s0xf3517659e88f923:0x35d722a8ab4883cd!2sde+vaan+vitaliteit!2m2!1d4.7850101!2d51.5867781!3m5!1s0xf3517659e88f923:0x35d722a8ab4883cd!8m2!3d51.5867781!4d4.7850101!16s%2Fg%2F11tdrlmx20"><p>Claudius Prinsenlaan 12, 4811 DK Breda</p></a>
                 <a href="mailto:vaan-vitaliteit@outlook.com"> <p class="email-id">vaan-vitaliteit@outlook.com</p> </a>  
                 <a href="tel:123-456-7890"> <h4>+31 - 6 12345678</h4> </a>
             </div>
