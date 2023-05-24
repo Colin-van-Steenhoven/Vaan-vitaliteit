@@ -472,10 +472,7 @@
                 <h3 class="primary-text-color">Links <div class="underline"><span></span></div></h3>
                 <ul class="secondary-text-color">
                     <li><a href="">Home</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Features</a></li>
-                    <li><a href="">Contacts</a></li>
+                    <li><a href="contact">Meer info</a></li>
                 </ul>
             </div>
             <div class="col">
