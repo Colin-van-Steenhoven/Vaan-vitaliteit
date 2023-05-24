@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>De Vaan Vitaliteit</title>
+    <link rel="icon" href="images/2023-01-18.png" type="image/icon type">
     
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
 
@@ -13,6 +15,12 @@
     <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
 	
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/82d3b6429e.js" crossorigin="anonymous"></script>
 
@@ -26,11 +34,27 @@
         .caveat{
             font-family: 'Caveat';font-size: 22px;
         }
+        .josefin-sans{
+            font-family: 'Josefin Sans', sans-serif;
+        }
         #menu-toggle:checked + #menu {
             display: block;
         }
         body{
             background: rgb(248, 242, 231);
+        }
+        .button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
         }
         .primary-background{
             background: rgb(248, 242, 231);
@@ -203,16 +227,6 @@
             left: 0;
             overflow: hidden;
         }
-        .underline span{
-            width: 15px;
-            height: 100%;
-            background: #F7EFDF;
-            border-radius: 3px;
-            position: absolute;
-            top: 0;
-            left: 10px;
-            animation: moving 2s linear infinite;
-        }
         @keyframes moving{
             0%{
                 left: -20px;
@@ -315,6 +329,16 @@
                 -webkit-user-select: none;
                 touch-action: manipulation;
             }
+            .button5 {
+            background-color: black;
+            color: white;
+            border: 2px solid #555555;
+            }
+
+            .button5:hover {
+            background-color: #555555;
+            color: white;
+            }
     </style>
     <script>
         window.addEventListener('scroll', () => {
@@ -341,11 +365,11 @@
             <div class="hidden md:flex z-50 md:items-center md:w-auto w-full order-3 md:order-1 primary-text-color" id="menu">
                 <nav>
                     <ul class="md:flex  items-center justify-between text-base text-header-menu font-bold pt-4 md:pt-0">
-                        <li><a class="inline-block no-underline hover:text-white primary-text-color hover:underline py-2 px-4" href="#">Home</a></li>
-                        <li><a class="inline-block no-underline hover:text-white primary-text-color hover:underline py-2 px-4" href="#main1">bedrijf</a></li>
-                        <li><a class="inline-block no-underline hover:text-white primary-text-color hover:underline py-2 px-4" href="#">contact</a></li>
-                        <li><a class="inline-block no-underline hover:text-white primary-text-color hover:underline py-2 px-4" href="#footer1">Extra info</a></li>
-                        <li><a class="inline-block no-underline hover:text-white primary-text-color hover:underline py-2 px-4" href="#"></a></li>
+                        <li><a class="inline-block no-underline primary-text-color py-2 px-4" href="#">Home</a></li>
+                        <li><a class="inline-block no-underline primary-text-color py-2 px-4" href="#main1">Bedrijf</a></li>
+                        <li><a class="inline-block no-underline primary-text-color py-2 px-4" href="#">Contact</a></li>
+                        <li><a class="inline-block no-underline primary-text-color py-2 px-4" href="#footer1">Extra info</a></li>
+                        <li><a class="inline-block no-underline primary-text-color py-2 px-4" href="#"></a></li>
                     </ul>
                 </nav>
             </div>
@@ -360,14 +384,14 @@
 
         </div>
         <div id="headerScroll">
-            <h1 class="">De Vaan Vitaliteit</h1>
+            <h1 class="josefin-sans">De Vaan Vitaliteit</h1>
         </div>
 
         
     </nav>
  
         <div id="headerScrollbg">
-            <h1 class="caveat">De Vaan Vitaliteit</h1>
+            <h1 class="josefin-sans">De Vaan Vitaliteit</h1>
         </div>
     <div class="waveline  relative z-10">
       <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -388,17 +412,14 @@
         </g>
       </svg>
     </div>
-    <div class="bgafterwave relative flex h-screen w-full justify-center items-center ">
+    <div class="bgafterwave relative flex justify-center items-center">
         <img src="/images/Ribalta_Espaco_1.jpg" alt="">
-    </div>
-    <div class=" ">
-        
     </div>
 
     <div class="container mx-auto">
-        <div id="main1" class="relative flex h-screen">
+        <div id="main1" class="relative h-screen left-50">
             <img src="/images/person.png" alt="Image 1" class=" absolute h-1/2 -left-24 object-cover">
-            <img src="/images/company.jpg" alt="Image 2" class="absolute h-1/2 top-64 left-40  object-cover">
+            <img src="/images/company.jpg" alt="Image 2" class="absolute h-1/2 top-64 left-40 object-cover">
             <div class="m-auto sm:m-auto absolute right-0 top-72 text-left w-2/5 block">
                 <h2 class="text-4xl font-extrabold primary-text-color text-black primary-text-color">lorem ipsum</h2>
 
@@ -412,12 +433,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloribus hic repudiandae accusantium commodi, facilis deserunt optio cumque cupiditate aliquid vitae quasi possimus ab quia id sint, non fugiat neque.
                 </p>
 
-                <div class="contact_button">
-                    <button><a href="{{ route('contact') }}"> test</a></button>
-
-                    
-                    
-                </div>
+                <a href="contact"><button class="button button5"> Meer informatie </button></a>
                 
 
                 <p class="font-extrabold primary-text-color pb-9">
@@ -445,12 +461,12 @@
                     cum molestiae sapiente dolore magnam</p>
             </div>
             <div class="col secondary-text-color">
-                <h3 class="primary-text-color">office <div class="underline"><span></span></div></h3>
-                <p>bedrijf naam</p>
-                <p>naam persoon</p>
-                <p>locatie</p>
-                <p class="email-id">vaan-vitaliteit@outlook.com</p>
-                <h4>+91 - 01234546789</h4>
+                <h3 class="primary-text-color">Office <div class="underline"><span></span></div></h3>
+                <p>De Vaan Vitaliteit</p>
+                <p>Merel de Vaan</p>
+                <a href="https://www.google.com/maps/dir/51.7318429,4.841199/de+vaan+vitaliteit/@51.6586148,4.6920868,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0xf3517659e88f923:0x35d722a8ab4883cd!2m2!1d4.7850101!2d51.5867781"><p>Claudius Prinsenlaan 12, 4811 DK Breda</p></a>
+                <a href="mailto:vaan-vitaliteit@outlook.com"> <p class="email-id">vaan-vitaliteit@outlook.com</p> </a>  
+                <a href="tel:123-456-7890"> <h4>+31 - 6 12345678</h4> </a>
             </div>
             <div class="col">
                 <h3 class="primary-text-color">Links <div class="underline"><span></span></div></h3>
@@ -463,12 +479,7 @@
                 </ul>
             </div>
             <div class="col">
-                <h3 class="primary-text-color">Newsletter <div class="underline"><span></span></div></h3>
-                <form class="secondary-text-color">
-                    <i class="fas fa-regular fa-envelope"></i>
-                    <input type="email" placeholder="Enter your email id" required>
-                    <button type="subtim"><i class="fas fa-solid fa-arrow-right "></i></button>
-                </form>
+                <h3 class="primary-text-color">Social media <div class="underline"><span></span></div></h3>
                 <div class="social-icons secondary-text-color">
                     <i class="fab fa-brands fa-facebook "></i>
                     <i class="fab fa-brands fa-twitter"></i>
@@ -478,7 +489,7 @@
             </div>
         </div>
         <hr>
-        <p><div class="copyright light-text-color">copyright</div></p>
+        <p><div class="copyright light-text-color">copyright: Vaan Vitaliteit</div></p>
     </footer>
    
     <script>

@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>De Vaan Vitaliteit</title>
+    <link rel="icon" href="images/2023-01-18.png" type="image/icon type">
     
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
 
@@ -13,6 +15,12 @@
     <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
 	
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/82d3b6429e.js" crossorigin="anonymous"></script>
 
@@ -25,6 +33,9 @@
         }
         .caveat{
             font-family: 'Caveat';font-size: 22px;
+        }
+        .josefin-sans{
+            font-family: 'Josefin Sans', sans-serif;
         }
         #menu-toggle:checked + #menu {
             display: block;
@@ -409,11 +420,9 @@
             <div class="hidden md:flex z-50 md:items-center md:w-auto w-full order-3 md:order-1 primary-text-color" id="menu">
                 <nav>
                     <ul class="md:flex  items-center justify-between text-base text-header-menu font-bold pt-4 md:pt-0">
-                        <li><a class="inline-block no-underline hover:underline primary-text-color hover:underline py-2 px-4" href="/">Home</a></li>
-                        <li><a class="inline-block no-underline hover:underline primary-text-color hover:underline py-2 px-4" href="#main1">Bedrijf</a></li>
-                        <li><a class="inline-block no-underline hover:underline primary-text-color hover:underline py-2 px-4" href="#">Contact</a></li>
-                        <li><a class="inline-block no-underline hover:underline primary-text-color hover:underline py-2 px-4" href="#footer1">Extra info</a></li>
-                        <li><a class="inline-block no-underline hover:underline primary-text-color hover:underline py-2 px-4" href="#"></a></li>
+                        <li><a class="inline-block no-underline primary-text-color py-2 px-4" href="/">Home</a></li>
+                        <li><a class="no-underline hover:no primary-text-color">></a></li>
+                        <li><a class="inline-block no-underline primary-text-color py-2 px-4" href="/contact">Informatie</a></li>
                     </ul>
                 </nav>
             </div>
@@ -421,7 +430,7 @@
 
         </div>
         <div id="headerScroll">
-            <h1 class="">De Vaan Vitaliteit</h1>
+            <h1 class="josefin-sans">De Vaan Vitaliteit</h1>
         </div>
     </nav>
         <div class="slider">
