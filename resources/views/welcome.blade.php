@@ -257,7 +257,7 @@
         }
         #headerScrollbg{
             /* background-color: ;  */
-            background: linear-gradient(90deg, #2fac66  0%, #82C063 100%);
+            background: #e0d8c5f3;
             padding: 13px; 
             color: transparent;
             text-align: center; 
