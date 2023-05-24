@@ -339,6 +339,45 @@
             background-color: #555555;
             color: white;
             }
+            .container{
+            margin: 0 auto;
+        }
+
+        .flex-container{
+            display: flex;
+            justify-content: space-around;
+            min-height: 1000px;
+        }
+
+        .images, .text{
+            width: 90%;
+            margin: 100px;
+        }
+        .images{
+            width: 750px;
+        }
+
+        .images{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+
+        .img1{
+            grid-column: 1 / span 2;
+            grid-row:    1 / span 2;
+        }
+
+        .img2{
+            grid-column: 2 / span 2;
+            grid-row:    2 / span 2;
+        }
     </style>
     <script>
         window.addEventListener('scroll', () => {
@@ -415,11 +454,16 @@
     <div class="bgafterwave relative flex justify-center items-center">
         <img src="/images/Ribalta_Espaco_1.jpg" alt="">
     </div>
-    <div class="container mx-auto">
-        <div id="main1" class="relative h-screen left-50">
-                <img src="/images/person.png" alt="Image 1" class=" absolute h-1/2 -left-24 object-cover">
-                <img src="/images/company.jpg" alt="Image 2" class="absolute h-1/2 top-64 left-40 object-cover">
-            <div class="m-auto sm:m-auto absolute right-0 top-72 text-left w-2/5 block">
+    <div id="main1" class="container">
+        <div class="flex-container">
+            <div class="images">
+                <div class="image-container">
+                    <img src="/images/person.png" alt="Image 1" class="img1">
+                    <img src="/images/company.jpg" alt="Image 2" class="img2">
+                </div>
+            </div>
+                
+            <div class="m-auto sm:m-auto right-0 top-72 text-left w-2/5 block">
                 <h2 class="text-4xl font-extrabold primary-text-color text-black primary-text-color">lorem ipsum</h2>
 
                 <p class="py-8 text-xl font-bold italic light-text-color">lorem ipsum</p>
