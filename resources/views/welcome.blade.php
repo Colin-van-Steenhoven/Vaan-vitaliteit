@@ -55,12 +55,13 @@
         margin: 4px 2px;
         transition-duration: 0.4s;
         cursor: pointer;
-        }
+        } 
         .primary-background{
             background: rgb(248, 242, 231);
         }
         .navbar-background{
             background: rgb(248, 242, 231);
+            l
         }
         
         .hover\:grow {
