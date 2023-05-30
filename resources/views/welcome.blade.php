@@ -377,8 +377,6 @@
             grid-column: 2 / span 2;
             grid-row:    2 / span 2;
         }
-<<<<<<< HEAD
-=======
         .Image3{
             height: 800px;
             width: 800px;
@@ -392,7 +390,6 @@
             border-top: #000 1px solid; */
             background-color: #ecd5c3 ;
         }
->>>>>>> parent of 6d0c1e0 (Merge branch 'main' of https://github.com/Colin-van-Steenhoven/Vaan-vitaliteit)
     </style>
     <script>
         window.addEventListener('scroll', () => {
@@ -479,7 +476,6 @@
             </div>
                 
             <div class="m-auto sm:m-auto right-0 top-72 text-left w-2/5 block">
-<<<<<<< HEAD
                 <h2 class="text-4xl font-extrabold primary-text-color text-black primary-text-color">Over Mij</h2>
 
                 <p class="py-8 text-xl font-bold italic light-text-color">Welkom bij De Vaan Vitaliteit! </p>
@@ -490,18 +486,6 @@
 
                 <p class="font-extrabold secondary-text-color pb-3">
                     
-=======
-                <h2 class="text-4xl font-extrabold primary-text-color text-black primary-text-color">lorem ipsum</h2>
-
-                <p class="py-8 text-xl font-bold italic light-text-color">lorem ipsum</p>
-
-                <p class="font-extrabold secondary-text-color pb-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptas, facilis nostrum delectus ipsam provident, minus nobis beatae deleniti eum quo quam architecto optio omnis quod repudiandae debitis atque iste.
-                </p>
-
-                <p class="font-extrabold secondary-text-color pb-3">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloribus hic repudiandae accusantium commodi, facilis deserunt optio cumque cupiditate aliquid vitae quasi possimus ab quia id sint, non fugiat neque.
->>>>>>> parent of caa0098 (over mij toegevoegd)
                 </p>
 
                 <a href="contact"><button class="button button5"> Meer informatie </button></a>
