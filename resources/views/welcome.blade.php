@@ -36,6 +36,7 @@
         }
         .josefin-sans{
             font-family: 'Josefin Sans', sans-serif;
+            color: #FFD700  ;
         }
         #menu-toggle:checked + #menu {
             display: block;
@@ -57,11 +58,10 @@
         cursor: pointer;
         } 
         .primary-background{
-            background: rgb(248, 242, 231);
+            background: #FFFFFF  ;
         }
         .navbar-background{
-            background: rgb(248, 242, 231);
-            l
+            background: #FFFFFF  ;
         }
         
         .hover\:grow {
@@ -126,7 +126,7 @@
             width: 100%;
             position:0;
             bottom:0;
-            background: #e0d8c5f3;
+            background: #F5F5DC ;
             color: #fff;
             padding: 100px 0 30px;
             font-size: 13px;
@@ -254,7 +254,7 @@
         }
         .bgafterwave{
             height: 800px;
-            background-color: rgb(248, 242, 231);
+            background-color: #FFFFFF  ;
             padding-top: 0;
             margin-top: 0;
             z-index: 10;
@@ -271,7 +271,7 @@
         }
         #headerScrollbg{
             /* background-color: ;  */
-            background: linear-gradient(90deg, #e4ddcdf3  0%, #e0d8c5f3 100%);
+            background: #F5F5DC  ;
             padding: 13px; 
             color: transparent;
             text-align: center; 
@@ -280,6 +280,7 @@
             font-weight: 400;
             position: fixed; 
             width: 100%; 
+            z-index: 10;
             top: 0;
             animation: up 600ms linear ;
             animation-play-state: paused;
@@ -330,13 +331,17 @@
                 touch-action: manipulation;
             }
             .button5 {
-            background-color: black;
+            background-color: #FFA500 ;
             color: white;
             border: 2px solid #555555;
             }
+            .button6 {
+            background-color: #ecd5c3;
+            color: black;
+            }
 
             .button5:hover {
-            background-color: #555555;
+            background-color: #ffc250 ;
             color: white;
             }
             .container{
@@ -347,7 +352,10 @@
             display: flex;
             justify-content: space-around;
         }
-
+        .textboxaboutme{
+            background-color: #4e655b;
+            color: #ecd5c3 ;
+        }
         .images, .text{
             width: 90%;
             margin: 100px;
@@ -390,6 +398,11 @@
             border-top: #000 1px solid; */
             background-color: #ecd5c3 ;
         }
+        .text-4xl{
+            color: #FFD700  ;
+        }
+
+
     </style>
     <script>
         window.addEventListener('scroll', () => {
@@ -442,7 +455,7 @@
     </nav>
  
         <div id="headerScrollbg">
-            <h1 class="josefin-sans">De Vaan Vitaliteit</h1>
+            <h1 class="josefin-sanss">De Vaan Vitaliteit</h1>
         </div>
     <div class="waveline  relative z-10">
       <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -455,7 +468,7 @@
             ></path>
             <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" id="Path-4" opacity="0.200000003"></path>
           </g>
-          <g transform="translate(-4.000000, 76.000000)" fill="rgb(248, 242, 231)" fill-rule="nonzero">
+          <g transform="translate(-4.000000, 76.000000)" fill="#FFFFFF " fill-rule="nonzero">
             <path
               d="M0.457,34.035 C57.086,53.198 98.208,65.809 123.822,71.865 C181.454,85.495 234.295,90.29 272.033,93.459 C311.355,96.759 396.635,95.801 461.025,91.663 C486.76,90.01 518.727,86.372 556.926,80.752 C595.747,74.596 622.372,70.008 636.799,66.991 C663.913,61.324 712.501,49.503 727.605,46.128 C780.47,34.317 818.839,22.532 856.324,15.904 C922.689,4.169 955.676,2.522 1011.185,0.432 C1060.705,1.477 1097.39,3.129 1121.236,5.387 C1161.703,9.219 1208.621,17.821 1235.4,22.304 C1285.855,30.748 1354.351,47.432 1440.886,72.354 L1441.191,104.352 L1.121,104.031 L0.457,34.035 Z"
             ></path>
@@ -466,32 +479,60 @@
     <div class="bgafterwave relative flex justify-center items-center">
         <img src="/images/Ribalta_Espaco_1.jpg" alt="">
     </div>
-    <div id="main1" class="container">
-        <div class="flex-container">
-            <div class="images">
-                <div class="image-container">
-                    <img src="/images/person.png" alt="Image 1" class="img1">
-                    <img src="/images/company.jpg" alt="Image 2" class="img2">
+        <div id="main1" class="container z-20">
+            <div class="flex-container">
+                <div class="images">
+                    <div class="image-container">
+                        <img src="/images/person.png" alt="Image 1" class="img1">
+                        <img src="/images/company.jpg" alt="Image 2" class="img2">
+                    </div>
                 </div>
-            </div>
-                
-            <div class="m-auto sm:m-auto right-0 top-72 text-left w-2/5 block">
-                <h2 class="text-4xl font-extrabold primary-text-color text-black primary-text-color">Over Mij</h2>
-
-                <p class="py-8 text-xl font-bold italic light-text-color">Welkom bij De Vaan Vitaliteit! </p>
-
-                <p class="font-extrabold secondary-text-color pb-3">
-                    Mijn naam is Merel de Vaan en ik ben een gepassioneerde verpleegkundige en voedingsdeskundige. Mijn missie is om bewustwording te creëren op het gebied van vitaliteit en mensen te laten zien welke positieve impact voeding kan hebben op hun welzijn. Met mijn achtergrond en expertise richt ik me op het bevorderen van vitaliteit en het streven naar een gezonde levensstijl.
-                </p>
-
-                <p class="font-extrabold secondary-text-color pb-3">
                     
-                </p>
+                <div class="m-auto sm:m-auto right-0 top-72 text-left w-2/5 block">
+                    <h2 class="text-4xl font-extrabold primary-text-color text-black primary-text-color">lorem ipsum</h2>
 
-                <a href="contact"><button class="button button5"> Meer informatie </button></a>
+                    <p class="py-8 text-xl font-bold italic light-text-color">lorem ipsum</p>
+
+                    <p class="font-extrabold secondary-text-color pb-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptas, facilis nostrum delectus ipsam provident, minus nobis beatae deleniti eum quo quam architecto optio omnis quod repudiandae debitis atque iste.
+                    </p>
+
+                    <p class="font-extrabold secondary-text-color pb-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloribus hic repudiandae accusantium commodi, facilis deserunt optio cumque cupiditate aliquid vitae quasi possimus ab quia id sint, non fugiat neque.
+                    </p>
+
+                    <a href="contact"><button class="button button5"> Meer informatie </button></a>
+                    
+
+                    <p class="font-extrabold primary-text-color pb-9">
+                    </p>
+
+                <!-- <a href="/blog/who-am-i-and-why-am-i-anonymous" class="uppercase bg-blue-500 text-gray-100 text-s 
+                font-extrabold py-3 px-8 rounded-3xl">
+                    find out more
+                </a> -->
+            </div>
+            </div>
+        </div>
+    <div class=" Borderundersection p-6 mb-28">
+    <div id="main1" class="container ">
+        <div class="grid grid-cols-8 grid-rows-2 ">
+            <div class=" image3box col-start-2 col-span-2 row-start-1 row-span-2">
+                <img src="/images/devaanvrouw.jpg" class="Image3" alt="Image3">
+            </div>
+            <div class="textboxaboutme m-auto sm:m-auto right-0 col-start-5 col-span-4 p-6 top-72 row-start-1 row-span-2 text-left w-5/5 block">
+                <h2 class="text-4xl font-extrabold ">Over Mij!</h2>
+
+                <p class="py-8 text-xl font-bold italic">lorem ipsum</p>
+
+                <p class="font-extrabold pb-3">
+                Welkom bij De Vaan Vitaliteit! Mijn naam is Merel de Vaan en ik ben een gepassioneerde verpleegkundige en voedingsdeskundige. Mijn missie is om bewustwording te creëren op het gebied van vitaliteit en mensen te laten zien welke positieve impact voeding kan hebben op hun welzijn. Met mijn achtergrond en expertise richt ik me op het bevorderen van vitaliteit en het streven naar een gezonde levensstijl.                </p>
+
+
+                <a href="contact"><button class="button button6"> Lees meer </button></a>
                 
 
-                <p class="font-extrabold primary-text-color pb-9">
+                <p class="font-extrabold pb-9">
                 </p>
 
             <!-- <a href="/blog/who-am-i-and-why-am-i-anonymous" class="uppercase bg-blue-500 text-gray-100 text-s 
@@ -500,6 +541,8 @@
             </a> -->
         </div>
         </div>
+
+    </div>
     </div>
     <!-- <div class="container ">
         <div class="border-black border-solid ">
