@@ -126,7 +126,7 @@
             width: 100%;
             position:0;
             bottom:0;
-            background: #F5F5DC ;
+            background: #ecd5c3;
             color: #fff;
             padding: 100px 0 30px;
             font-size: 13px;
@@ -331,19 +331,24 @@
                 touch-action: manipulation;
             }
             .button5 {
-            background-color:  #d28d5c ;
+            background-color:  #c95e12 ;
             color: white;
-            border: 2px solid #555555;
             }
             .button6 {
-            background-color: #ecd5c3;
+            background-color:  #ecd5c3 ;
+            color: black;
+            }
+
+            .button6:hover {
+            background-color: #c9ae9a;
             color: black;
             }
 
             .button5:hover {
-            background-color: #c95e12 ;
+            background-color: #d28d5c;
             color: white;
             }
+            
             .container{
             margin: 0 auto;
         }
@@ -614,6 +619,7 @@
             <p>Lorem ipsum dolor sit amet consectetur,tibus culpa harum ut itaque, at dolorem distinctio quos accusantium incidunt eligendi, obcaecati aliquid debitis soluta?</p>
         </div>
     </div>
+</section>
     
 
     <footer>
