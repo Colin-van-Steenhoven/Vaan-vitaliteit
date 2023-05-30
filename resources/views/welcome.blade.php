@@ -331,7 +331,7 @@
                 touch-action: manipulation;
             }
             .button5 {
-            background-color: #FFA500 ;
+            background-color:  #d28d5c ;
             color: white;
             border: 2px solid #555555;
             }
@@ -341,7 +341,7 @@
             }
 
             .button5:hover {
-            background-color: #ffc250 ;
+            background-color: #c95e12 ;
             color: white;
             }
             .container{
