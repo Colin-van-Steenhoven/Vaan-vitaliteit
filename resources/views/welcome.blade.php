@@ -377,6 +377,22 @@
             grid-column: 2 / span 2;
             grid-row:    2 / span 2;
         }
+<<<<<<< HEAD
+=======
+        .Image3{
+            height: 800px;
+            width: 800px;
+        }
+        .image3box{
+            height: 800px;
+            width: 800px;
+        }
+        .Borderundersection{
+            /* border-bottom: #000 1px solid;
+            border-top: #000 1px solid; */
+            background-color: #ecd5c3 ;
+        }
+>>>>>>> parent of 6d0c1e0 (Merge branch 'main' of https://github.com/Colin-van-Steenhoven/Vaan-vitaliteit)
     </style>
     <script>
         window.addEventListener('scroll', () => {
