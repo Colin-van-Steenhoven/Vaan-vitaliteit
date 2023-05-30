@@ -56,7 +56,7 @@
         margin: 4px 2px;
         transition-duration: 0.4s;
         cursor: pointer;
-        }
+        } 
         .primary-background{
             background: #FFFFFF  ;
         }
