@@ -36,7 +36,7 @@
         }
         .josefin-sans{
             font-family: 'Josefin Sans', sans-serif;
-            color: #FFD700  ;
+            color: #4e655b;
         }
         #menu-toggle:checked + #menu {
             display: block;
@@ -271,7 +271,7 @@
         }
         #headerScrollbg{
             /* background-color: ;  */
-            background: #F5F5DC  ;
+            background: #ecd5c3 ;
             padding: 13px; 
             color: transparent;
             text-align: center; 
@@ -354,7 +354,7 @@
         }
         .textboxaboutme{
             background-color: #4e655b;
-            color: #ecd5c3 ;
+            color: #ecd5c3;
         }
         .images, .text{
             width: 90%;
@@ -397,9 +397,6 @@
             /* border-bottom: #000 1px solid;
             border-top: #000 1px solid; */
             background-color: #ecd5c3 ;
-        }
-        .text-4xl{
-            color: #FFD700  ;
         }
 
 
