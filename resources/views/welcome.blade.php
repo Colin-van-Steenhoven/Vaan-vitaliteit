@@ -331,7 +331,7 @@
                 touch-action: manipulation;
             }
             .button5 {
-            background-color: #FFA500 ;
+            background-color:  #d28d5c ;
             color: white;
             border: 2px solid #555555;
             }
@@ -341,7 +341,7 @@
             }
 
             .button5:hover {
-            background-color: #ffc250 ;
+            background-color: #c95e12 ;
             color: white;
             }
             .container{
@@ -397,6 +397,46 @@
             /* border-bottom: #000 1px solid;
             border-top: #000 1px solid; */
             background-color: #ecd5c3 ;
+        }
+        
+        #features{
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .feature-row{
+            width: 80;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            
+        }
+        .feature-col{
+            flex-basis: 25%;
+            text-align: center;
+            border: solid 2px gray;
+            border-radius: 8px;
+        }
+        .title-border{
+            margin-top: 20px;
+            border-bottom: solid 2px gray;
+            height: 40px;
+        }
+        .hr-lines:before{
+        content:" ";
+        display: block;
+        height: 2px;
+        width: 410px;
+        position: absolute;
+        top: 90%;
+        left: 6%;
+        background: gray;
+        }
+        .hr-lines{
+        position: relative;
+        margin-top: 20px;
+        height: 45px;
         }
 
 
@@ -500,7 +540,7 @@
 
                     <a href="contact"><button class="button button5"> Meer informatie </button></a>
                     
-
++
                     <p class="font-extrabold primary-text-color pb-9">
                     </p>
 
@@ -546,6 +586,37 @@
             <h1>wadwaa</h1>
         </div>
     </div> -->
+
+<!--paketten-->
+
+<section id="features">
+    <div class="feature-row">
+        <div class="feature-col">
+            <img src="" alt="">
+            <i class="fa fa-duotone fa-house"></i>
+            <i class="fa fa-brands fa-twitter"></i>
+            <div class="title-border">
+                <h4>Pakket 1</h4>
+            </div>
+            <h2 class="hr-lines">PEACE</h2>
+            <p>Lorem ipsum dolor sit amet consectetur,tibus culpa harum ut itaque, at dolorem distinctio quos accusantium incidunt eligendi, obcaecati aliquid debitis soluta?</p>
+        </div>
+        <div class="feature-col">
+            <img src="" alt="">
+            <div class="title-border">
+                <h4>Pakket 1</h4>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur,tibus culpa harum ut itaque, at dolorem distinctio quos accusantium incidunt eligendi, obcaecati aliquid debitis soluta?</p>
+        </div>
+        <div class="feature-col">
+            <img src="" alt="">
+            <div class="title-border">
+                <h4>Pakket 1</h4>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur,tibus culpa harum ut itaque, at dolorem distinctio quos accusantium incidunt eligendi, obcaecati aliquid debitis soluta?</p>
+        </div>
+    </div>
+    
 
     <footer>
         <div id="footer1" class="row">
