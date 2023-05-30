@@ -539,8 +539,6 @@
                     </p>
 
                     <a href="contact"><button class="button button5"> Meer informatie </button></a>
-                    
-+
                     <p class="font-extrabold primary-text-color pb-9">
                     </p>
 
