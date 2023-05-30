@@ -280,6 +280,7 @@
             font-weight: 400;
             position: fixed; 
             width: 100%; 
+            z-index: 10;
             top: 0;
             animation: up 600ms linear ;
             animation-play-state: paused;
@@ -334,6 +335,10 @@
             color: white;
             border: 2px solid #555555;
             }
+            .button6 {
+            background-color: #ecd5c3;
+            color: black;
+            }
 
             .button5:hover {
             background-color: #ffc250 ;
@@ -347,7 +352,10 @@
             display: flex;
             justify-content: space-around;
         }
-
+        .textboxaboutme{
+            background-color: #4e655b;
+            color: #ecd5c3 ;
+        }
         .images, .text{
             width: 90%;
             margin: 100px;
@@ -376,6 +384,19 @@
         .img2{
             grid-column: 2 / span 2;
             grid-row:    2 / span 2;
+        }
+        .Image3{
+            height: 800px;
+            width: 800px;
+        }
+        .image3box{
+            height: 800px;
+            width: 800px;
+        }
+        .Borderundersection{
+            /* border-bottom: #000 1px solid;
+            border-top: #000 1px solid; */
+            background-color: #ecd5c3 ;
         }
         .text-4xl{
             color: #FFD700  ;
@@ -458,13 +479,38 @@
     <div class="bgafterwave relative flex justify-center items-center">
         <img src="/images/Ribalta_Espaco_1.jpg" alt="">
     </div>
-    <div id="main1" class="container">
-        <div class="flex-container">
-            <div class="images">
-                <div class="image-container">
-                    <img src="/images/person.png" alt="Image 1" class="img1">
-                    <img src="/images/company.jpg" alt="Image 2" class="img2">
+        <div id="main1" class="container z-20">
+            <div class="flex-container">
+                <div class="images">
+                    <div class="image-container">
+                        <img src="/images/person.png" alt="Image 1" class="img1">
+                        <img src="/images/company.jpg" alt="Image 2" class="img2">
+                    </div>
                 </div>
+                    
+                <div class="m-auto sm:m-auto right-0 top-72 text-left w-2/5 block">
+                    <h2 class="text-4xl font-extrabold primary-text-color text-black primary-text-color">lorem ipsum</h2>
+
+                    <p class="py-8 text-xl font-bold italic light-text-color">lorem ipsum</p>
+
+                    <p class="font-extrabold secondary-text-color pb-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptas, facilis nostrum delectus ipsam provident, minus nobis beatae deleniti eum quo quam architecto optio omnis quod repudiandae debitis atque iste.
+                    </p>
+
+                    <p class="font-extrabold secondary-text-color pb-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloribus hic repudiandae accusantium commodi, facilis deserunt optio cumque cupiditate aliquid vitae quasi possimus ab quia id sint, non fugiat neque.
+                    </p>
+
+                    <a href="contact"><button class="button button5"> Meer informatie </button></a>
+                    
+
+                    <p class="font-extrabold primary-text-color pb-9">
+                    </p>
+
+                <!-- <a href="/blog/who-am-i-and-why-am-i-anonymous" class="uppercase bg-blue-500 text-gray-100 text-s 
+                font-extrabold py-3 px-8 rounded-3xl">
+                    find out more
+                </a> -->
             </div>
                 
             <div class="m-auto sm:m-auto right-0 top-72 text-left w-2/5 block">
@@ -480,10 +526,10 @@
                     
                 </p>
 
-                <a href="contact"><button class="button button5"> Meer informatie </button></a>
+                <a href="contact"><button class="button button6"> Lees meer </button></a>
                 
 
-                <p class="font-extrabold primary-text-color pb-9">
+                <p class="font-extrabold pb-9">
                 </p>
 
             <!-- <a href="/blog/who-am-i-and-why-am-i-anonymous" class="uppercase bg-blue-500 text-gray-100 text-s 
@@ -492,6 +538,8 @@
             </a> -->
         </div>
         </div>
+
+    </div>
     </div>
     <!-- <div class="container ">
         <div class="border-black border-solid ">
