@@ -282,7 +282,7 @@
             width: 100%; 
             z-index: 10;
             top: 0;
-            animation: up 600ms linear ;
+            animation: up 400ms linear ;
             animation-play-state: paused;
             animation-delay: calc(var(--scroll) * -1s);
         }
@@ -298,7 +298,7 @@
             width: 100%; 
             z-index: 30;
             top: 0;
-            animation: up 280ms linear ;
+            animation: up 230ms linear ;
             animation-play-state: paused;
             animation-delay: calc(var(--scroll) * -1s);
             }
