@@ -348,6 +348,14 @@
             background-color: #d28d5c;
             color: white;
             }
+            .packagebutton{
+            background-color:  white ;
+            color: black;
+            }
+            .packagebutton:hover{
+            background-color: #6ee7b7;
+            color: black;
+            }
             
             .container{
             margin: 0 auto;
@@ -595,7 +603,7 @@
 <!--paketten-->
 
 
-    <style>
+<style>
     [x-cloak] {
     display: none;
     }
@@ -650,7 +658,7 @@
             <template x-for="(feature, i) in plan.features" x-key="i">
               <li class="flex items-start">
                 <svg
-                     class="w-6 h-6 text-green-300"
+                     class="w-6 h-6 text-amber-800"
                      aria-hidden="true"
                      xmlns="http://www.w3.org/2000/svg"
                      viewBox="0 0 20 20"
@@ -670,15 +678,50 @@
           <!-- Button -->
           <div class="flex-shrink-0 pt-4">
             <button
-                    class="inline-flex items-center justify-center w-full max-w-xs px-4 py-2 transition-colors border rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                    :class="plan.name == 'Basic' ? 'bg-indigo-500 text-white hover:bg-indigo-700' : 'hover:bg-indigo-500 hover:text-white'"
+                    class="packagebutton inline-flex items-center justify-center w-full max-w-xs px-4 py-2 transition-colors border rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700"
+                    :class="plan.name == 'Basic' ? ' bg-orange-700 hover:bg-indigo-700' : 'hover:bg-amber-900 hover:text-white'"
                     x-text="`Get ${plan.name}`"
                     ></button>
           </div>
         </section>
       </template>
     </div>
-    
+  </main>
+
+  <!-- Author links -->
+  
+</div>
+
+<script>
+    const setup = () => {
+    return {
+        isNavOpen: false,
+
+        billPlan: 'none',
+
+        plans: [
+        {
+            name: 'Vitaliteitsboost',
+            discretion: 'Traject gericht op verbetering van leefwijze',
+            price: 214.95,
+            features: ['4 individuele consulten '],
+        },
+        {
+            name: 'Total Vitality',
+            discretion: 'lorem ipsum',
+            price: 287.55 ,
+            features: ['6 individuele consulten ', 'inclusief voedingsadvies', 'stressmanagementtips ', 'slaapoptimalisatie'],
+        },
+        {
+            name: 'Team vitality',
+            discretion: 'Vitaliteitsproject op maat voor uw bedrijf',
+            price: 'n.o.t.k',
+            features: ['Workshopreeks over voeding, beweging, ontspanning, slaap en ademhaling', 'Persoonlijke begeleiding voor werknemers', 'Persoonlijke coaching voor werknemers', 'evaluaties voor medewerkers'],
+        },
+        ],
+    }
+}
+</script>
 
     <footer>
         <div id="footer1" class="row">
