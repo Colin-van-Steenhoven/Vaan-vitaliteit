@@ -680,8 +680,7 @@
             <button
                     class="packagebutton inline-flex items-center justify-center w-full max-w-xs px-4 py-2 transition-colors border rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700"
                     :class="plan.name == 'Basic' ? ' bg-orange-700 hover:bg-indigo-700' : 'hover:bg-amber-900 hover:text-white'"
-                    x-text="`Get ${plan.name}`"
-                    ></button>
+                    >meer info</button>
           </div>
         </section>
       </template>
