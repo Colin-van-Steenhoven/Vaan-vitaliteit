@@ -43,6 +43,7 @@
         }
         body{
             background: rgb(248, 242, 231);
+            
         }
         .button {
         background-color: #4CAF50; /* Green */
@@ -271,7 +272,8 @@
         }
         #headerScrollbg{
             /* background-color: ;  */
-            background: #ecd5c3 ;
+            /* background: #ecd5c3 ; */
+            background-image: url("images/My project-1 (3).png");
             padding: 13px; 
             color: transparent;
             text-align: center; 
@@ -409,7 +411,8 @@
         .Borderundersection{
             /* border-bottom: #000 1px solid;
             border-top: #000 1px solid; */
-            background-color: #ecd5c3 ;
+            /* background-color: #ecd5c3 ; */
+            background-image: linear-gradient(to right top, #4e655b, #687a6a, #858e7b, #a3a38d, #c2b8a2, #ccb99c, #d9b998, #e6b895, #e0a274, #da8c54, #d27635, #c95e12);
         }
         
         #features{
@@ -529,14 +532,14 @@
       </svg>
     </div>
     <div class="bgafterwave relative flex justify-center items-center">
-        <img src="/images/Ribalta_Espaco_1.jpg" alt="">
+        <!-- <img src="/images/vitality.png" alt=""> -->
     </div>
         <div id="main1" class="container z-20">
             <div class="flex-container">
                 <div class="images">
                     <div class="image-container">
-                        <img src="/images/person.png" alt="Image 1" class="img1">
-                        <img src="/images/company.jpg" alt="Image 2" class="img2">
+                        <img src="/images/person.png" alt="Image 1" class="img1 rounded-lg shadow-2xl shadow-black/20 dark:shadow-black/40">
+                        <img src="/images/company.jpg" alt="Image 2" class="img2 rounded-lg shadow-2xl shadow-black/20 dark:shadow-black/40">
                     </div>
                 </div>
                     
@@ -568,9 +571,9 @@
     <div id="main1" class="container ">
         <div class="grid grid-cols-8 grid-rows-2 ">
             <div class=" image3box col-start-2 col-span-2 row-start-1 row-span-2">
-                <img src="/images/devaanvrouw.jpg" class="Image3" alt="Image3">
+                <img src="/images/My project-1 (2).png" class="Image3 rounded-md" alt="Image3">
             </div>
-            <div class="textboxaboutme m-auto sm:m-auto right-0 col-start-5 col-span-4 p-6 top-72 row-start-1 row-span-2 text-left w-5/5 block">
+            <div class="textboxaboutme m-auto sm:m-auto right-0 col-start-5 col-span-4 p-6 top-72 row-start-1 row-span-2 text-left w-5/5 block shadow-2xl  rounded-md">
                 <h2 class="text-4xl font-extrabold ">Over Mij!</h2>
 
                 <p class="py-8 text-xl font-bold italic">lorem ipsum</p>
@@ -633,10 +636,10 @@
 
     <!-- Plans -->
     <div
-         class="flex flex-col items-center justify-center mt-16 space-y-8 lg:flex-row lg:items-stretch lg:space-x-8 lg:space-y-0"
+         class="flex flex-col items-center justify-center mt-16 space-y-8  lg:flex-row lg:items-stretch lg:space-x-8 lg:space-y-0"
          >
       <template x-for="(plan, i) in plans" x-key="i">
-        <section class="priceplan flex flex-col w-full max-w-sm p-12 space-y-6  rounded-lg shadow-md">
+        <section class="priceplan flex flex-col w-full max-w-sm p-12 space-y-6 bg-gradient-to-r from-slate-50 to-blue-50  rounded-sm shadow-md">
           <!-- Price -->
           <div class="flex-shrink-0">
             <span
@@ -658,7 +661,7 @@
             <template x-for="(feature, i) in plan.features" x-key="i">
               <li class="flex items-start">
                 <svg
-                     class="w-6 h-6 text-amber-800"
+                     class="w-6 h-6 text-yellow-500  flex-shrink-0"
                      aria-hidden="true"
                      xmlns="http://www.w3.org/2000/svg"
                      viewBox="0 0 20 20"
