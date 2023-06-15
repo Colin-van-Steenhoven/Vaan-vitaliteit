@@ -571,7 +571,7 @@
     <div id="main5" class="container ">
         <div class="grid grid-cols-8 grid-rows-2 ">
             <div class=" image3box col-start-2 col-span-2 row-start-1 row-span-2">
-                <img src="/images/My project-1 (2).png" class="Image3 rounded-md" alt="Image3">
+                <img src="/images/devaanvrouw.jpg" class="Image3 rounded-md" alt="Image3">
             </div>
             <div class="textboxaboutme m-auto sm:m-auto right-0 col-start-5 col-span-4 p-6 top-72 row-start-1 row-span-2 text-left w-5/5 block shadow-2xl  rounded-md">
                 <h2 class="text-4xl font-extrabold ">Over Mij!</h2>
