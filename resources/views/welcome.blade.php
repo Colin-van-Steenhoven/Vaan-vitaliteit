@@ -36,7 +36,8 @@
         }
         .josefin-sans{
             font-family: 'Josefin Sans', sans-serif;
-            color: #FFA500 ;
+            color: black;
+            font-weight: 500;
         }
         #menu-toggle:checked + #menu {
             display: block;
