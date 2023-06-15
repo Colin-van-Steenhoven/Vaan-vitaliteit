@@ -494,8 +494,8 @@
                     <ul class="md:flex  items-center justify-between text-base text-header-menu font-bold pt-4 md:pt-0">
                         <li><a class="inline-block no-underline primary-text-color py-2 px-4" href="#">Home</a></li>
                         <li><a class="inline-block no-underline primary-text-color py-2 px-4" href="#main1">Bedrijf</a></li>
-                        <li><a class="inline-block no-underline primary-text-color py-2 px-4" href="#main5">Contact</a></li>
-                        <li><a class="inline-block no-underline primary-text-color py-2 px-4" href="#footer1">Extra info</a></li>
+                        <li><a class="inline-block no-underline primary-text-color py-2 px-4" href="#main5">Over mij</a></li>
+                        <li><a class="inline-block no-underline primary-text-color py-2 px-4" href="#prijzen">Prijzen</a></li>
                         <li><a class="inline-block no-underline primary-text-color py-2 px-4" href="#"></a></li>
                     </ul>
                 </nav>
@@ -518,8 +518,7 @@
     </nav>
  
         <div id="headerScrollbg">
-            <h1 class="
-            ">De Vaan Vitaliteit</h1>
+            <h1 class="">De Vaan Vitaliteit</h1>
         </div>
     <div class="waveline  relative z-10">
       <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -552,34 +551,45 @@
                     </div>
                     
                     <div class="m-auto sm:m-auto right-0 top-72 text-left w-2/5 block">
-                        <h2 class="text-4xl font-extrabold primary-text-color text-black primary-text-color">lorem ipsum</h2>
+                        <h2 class="text-4xl pb-5 font-extrabold primary-text-color text-black primary-text-color">Wat we doen</h2>
 
-                        <p class="py-8 text-xl font-bold italic light-text-color">lorem ipsum</p>
 
                         <p class="font-extrabold secondary-text-color pb-3">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptas, facilis nostrum delectus ipsam provident, minus nobis beatae deleniti eum quo quam architecto optio omnis quod repudiandae debitis atque iste.
+                        Bij De Vaan Vitaliteit realiseren we vitaliteitsprojecten bij bedrijven, met als doel om van werkdruk naar werkgeluk te gaan. We geloven dat een gezonde en vitale werkomgeving essentieel is voor het welzijn en de prestaties van medewerkers. 
                         </p>
 
                         <p class="font-extrabold secondary-text-color pb-3">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloribus hic repudiandae accusantium commodi, facilis deserunt optio cumque cupiditate aliquid vitae quasi possimus ab quia id sint, non fugiat neque.
+                        Onze projecten zijn gebaseerd op vijf belangrijke pijlers: voeding, beweging, ontspanning, ademhaling en slaap. Door deze pijlers te integreren, creëren we een holistische benadering van vitaliteit en streven we naar een gezonde balans op de werkvloer.
+                        </p>
+                        <h2 class="text-4xl pb-5  font-extrabold primary-text-color pt-10 text-black primary-text-color">Samenwerking</h2>
+
+
+                        <p class="font-extrabold secondary-text-color pb-3">
+                        Bij De Vaan Vitaliteit geloven we in de kracht van samenwerking en multidisciplinaire aanpak. 
+                        </p>
+
+                        <p class="font-extrabold secondary-text-color pb-3">
+                        Daarom werken we nauw samen met andere disciplines, zoals een stressmanagementcoach. Door de expertise van verschillende professionals te bundelen, bieden we een breed scala aan diensten en programma's om de vitaliteit van medewerkers te bevorderen. Samen streven we naar een gezonde en gelukkige werkomgeving waarin medewerkers optimaal kunnen presteren.
                         </p>
                     </div>
             </div>
         </div>
     
-    <div class=" Borderundersection p-6 mb-28">
+    <div class=" Borderundersection mt-20 p-6 mb-28">
     <div id="main5" class="container ">
         <div class="grid grid-cols-8 grid-rows-2 ">
             <div class=" image3box col-start-2 col-span-2 row-start-1 row-span-2">
                 <img src="/images/devaanvrouw.jpg" class="Image3 rounded-md" alt="Image3">
             </div>
             <div class="textboxaboutme m-auto sm:m-auto right-0 col-start-5 col-span-4 p-6 top-72 row-start-1 row-span-2 text-left w-5/5 block shadow-2xl  rounded-md">
-                <h2 class="text-4xl font-extrabold ">Over Mij!</h2>
+                <h2 class="text-4xl font-extrabold pb-7 pt-7 ">Over Mij!</h2>
 
-                <p class="py-8 text-xl font-bold italic">lorem ipsum</p>
 
                 <p class="font-extrabold pb-3">
                 Welkom bij De Vaan Vitaliteit! Mijn naam is Merel de Vaan en ik ben een gepassioneerde verpleegkundige en voedingsdeskundige. Mijn missie is om bewustwording te creëren op het gebied van vitaliteit en mensen te laten zien welke positieve impact voeding kan hebben op hun welzijn. Met mijn achtergrond en expertise richt ik me op het bevorderen van vitaliteit en het streven naar een gezonde levensstijl.                </p>
+
+
+                <!-- <a href="contact"><button class="button button6"> Lees meer </button></a> -->
                 
 
                 <p class="font-extrabold pb-9">
@@ -618,13 +628,16 @@
   <main class="mx-4 my-16">
     <div class="text-center">
       <h1 class="mb-4 text-2xl font-normal md:text-3xl lg:text-4xl">
-        Lorem <span class="font-semibold">ipsum</span> dolor sit <span class="font-semibold">amet</span>
+        Van <span class="font-semibold">werkdruk</span> naar<span class="font-semibold"> werkgeluk</span>
       </h1>
       <p class="text-sm font-normal text-gray-400">
-      Hic a facilis vero eos omnis culpa quibusdam, ex vitae ipsum quasi
+      Bij De Vaan Vitaliteit zijn we toegewijd aan het bevorderen van een gezonde levensstijl, 
       </p>
       <p class="text-sm font-normal text-gray-400">
-      voluptate excepturi, necessitatibus nisi similique.
+      het verbeteren van welzijn en het verminderen van stress op de werkvloer. 
+      </p>
+      <p class="text-sm font-normal text-gray-400">
+      Samen kunnen we de weg bewandelen naar een vitale en gelukkige toekomst.
       </p>
     </div>
 
@@ -632,7 +645,7 @@
 
 
     <!-- Plans -->
-    <div
+    <div id="prijzen"
          class="flex flex-col items-center justify-center mt-16 space-y-8  lg:flex-row lg:items-stretch lg:space-x-8 lg:space-y-0"
          >
       <template x-for="(plan, i) in plans" x-key="i">
@@ -676,12 +689,6 @@
           </ul>
 
           <!-- Button -->
-          <div class="flex-shrink-0 pt-4">
-            <button
-                    class="packagebutton inline-flex items-center justify-center w-full max-w-xs px-4 py-2 transition-colors border rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700"
-                    :class="plan.name == 'Basic' ? ' bg-orange-700 hover:bg-indigo-700' : 'hover:bg-amber-900 hover:text-white'"
-                    >meer info</button>
-          </div>
         </section>
       </template>
     </div>
@@ -702,13 +709,13 @@
         {
             name: 'Vitaliteitsboost',
             discretion: 'Traject gericht op verbetering van leefwijze',
-            price: 214.95,
+            price: "€214.95",
             features: ['4 individuele consulten '],
         },
         {
             name: 'Total Vitality',
             discretion: 'lorem ipsum',
-            price: 287.55 ,
+            price: '€287.55' ,
             features: ['6 individuele consulten ', 'inclusief voedingsadvies', 'stressmanagementtips ', 'slaapoptimalisatie'],
         },
         {
@@ -726,9 +733,7 @@
         <div id="footer1" class="row">
             <div class="col h-40 secondary-text-color">
                 <img class="footer-logo" src="images/2023-01-18.png" alt="logo">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Neque animi sequi, modi, accusantium quasi facilis quaerat 
-                    cum molestiae sapiente dolore magnam</p>
+                <p>Van werkdruk naar werkgeluk</p>
             </div>
             <div class="col secondary-text-color">
                 <h3 class="primary-text-color">Office <div class="underline"><span></span></div></h3>
@@ -741,8 +746,11 @@
             <div class="col">
                 <h3 class="primary-text-color">Links <div class="underline"><span></span></div></h3>
                 <ul class="secondary-text-color">
-                    <li><a href="">Home</a></li>
-                    <li><a href="contact">Meer info</a></li>
+                    <li><a  href="#">Home</a></li>
+                    <li><a  href="#main1">Bedrijf</a></li>
+                    <li><a  href="#main5">Over mij</a></li>
+                    <li><a  href="#footer1">Prijzen</a></li>
+                    <li><a  href="#"></a></li>
                 </ul>
             </div>
             <div class="col">
