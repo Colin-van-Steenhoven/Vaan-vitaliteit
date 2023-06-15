@@ -335,13 +335,13 @@
 }
 
 .slider .inner-wrapper .slide:nth-of-type(1) {
-    background-image: url("https://placehold.jp/1920x1080.png");
+    background-image: url("images/vitality.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .slider .inner-wrapper .slide:nth-of-type(2) {
-    background-image: url("https://placehold.jp/1920x1080.png");
+    background-image: url("images/upscaler-devaanvrouw2-2x.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }

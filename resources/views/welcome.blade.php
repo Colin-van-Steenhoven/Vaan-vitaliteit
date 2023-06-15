@@ -36,7 +36,7 @@
         }
         .josefin-sans{
             font-family: 'Josefin Sans', sans-serif;
-            color: #4e655b;
+            color: #FFA500 ;
         }
         #menu-toggle:checked + #menu {
             display: block;
@@ -254,7 +254,7 @@
             margin-bottom: 0;
         }
         .bgafterwave{
-            height: 800px;
+            height: 400px;
             background-color: #FFFFFF  ;
             padding-top: 0;
             margin-top: 0;
@@ -282,7 +282,7 @@
             font-weight: 400;
             position: fixed; 
             width: 100%; 
-            z-index: 10;
+            z-index: -10;
             top: 0;
             animation: up 400ms linear ;
             animation-play-state: paused;
@@ -510,7 +510,8 @@
     </nav>
  
         <div id="headerScrollbg">
-            <h1 class="josefin-sanss">De Vaan Vitaliteit</h1>
+            <h1 class="
+            ">De Vaan Vitaliteit</h1>
         </div>
     <div class="waveline  relative z-10">
       <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -531,11 +532,10 @@
         </g>
       </svg>
     </div>
-    <div class="bgafterwave relative flex justify-center items-center">
         <!-- <img src="/images/vitality.png" alt=""> -->
-    </div>
+    
         <div id="main1" class="container z-20">
-            <div class="flex-container">
+            <div class="flex-container bg-white w-full">
                 <div class="images">
                     <div class="image-container">
                         <img src="/images/person.png" alt="Image 1" class="img1 rounded-lg shadow-2xl shadow-black/20 dark:shadow-black/40">
@@ -567,6 +567,7 @@
             </div>
             </div>
         </div>
+    
     <div class=" Borderundersection p-6 mb-28">
     <div id="main1" class="container ">
         <div class="grid grid-cols-8 grid-rows-2 ">
