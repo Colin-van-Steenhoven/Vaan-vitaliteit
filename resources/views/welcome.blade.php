@@ -714,8 +714,8 @@
             features: ['4 individuele consulten '],
         },
         {
-            name: 'Traject gericht op verbetering ',
-            discretion: '',
+            name: 'Total Vitality',
+            discretion: 'Traject gericht op verbetering ',
             price: '€287.55' ,
             features: ['6 individuele consulten ', 'inclusief voedingsadvies', 'stressmanagementtips ', 'slaapoptimalisatie'],
         },
