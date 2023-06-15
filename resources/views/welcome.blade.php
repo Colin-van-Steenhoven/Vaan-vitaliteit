@@ -362,6 +362,14 @@
             .container{
             margin: 0 auto;
         }
+        .container-1{
+            margin: 0 auto;
+            max-width: 2000px;
+        }
+        .container-2{
+            margin: 0 auto;
+            max-width: 1830px;
+        }
 
         .flex-container{
             display: flex;
@@ -534,37 +542,28 @@
     </div>
         <!-- <img src="/images/vitality.png" alt=""> -->
     
-        <div id="main1" class="container z-20">
+        <div id="main1" class="container-1 z-20">
             <div class="flex-container bg-white w-full">
-                <div class="images">
-                    <div class="image-container">
-                        <img src="/images/person.png" alt="Image 1" class="img1 rounded-lg shadow-2xl shadow-black/20 dark:shadow-black/40">
-                        <img src="/images/company.jpg" alt="Image 2" class="img2 rounded-lg shadow-2xl shadow-black/20 dark:shadow-black/40">
+                    <div class="images">
+                        <div class="image-container">
+                            <img src="/images/person.png" alt="Image 1" class="img1 rounded-lg shadow-2xl shadow-black/20 dark:shadow-black/40">
+                            <img src="/images/company.jpg" alt="Image 2" class="img2 rounded-lg shadow-2xl shadow-black/20 dark:shadow-black/40">
+                        </div>
                     </div>
-                </div>
                     
-                <div class="m-auto sm:m-auto right-0 top-72 text-left w-2/5 block">
-                    <h2 class="text-4xl font-extrabold primary-text-color text-black primary-text-color">lorem ipsum</h2>
+                    <div class="m-auto sm:m-auto right-0 top-72 text-left w-2/5 block">
+                        <h2 class="text-4xl font-extrabold primary-text-color text-black primary-text-color">lorem ipsum</h2>
 
-                    <p class="py-8 text-xl font-bold italic light-text-color">lorem ipsum</p>
+                        <p class="py-8 text-xl font-bold italic light-text-color">lorem ipsum</p>
 
-                    <p class="font-extrabold secondary-text-color pb-3">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptas, facilis nostrum delectus ipsam provident, minus nobis beatae deleniti eum quo quam architecto optio omnis quod repudiandae debitis atque iste.
-                    </p>
+                        <p class="font-extrabold secondary-text-color pb-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptas, facilis nostrum delectus ipsam provident, minus nobis beatae deleniti eum quo quam architecto optio omnis quod repudiandae debitis atque iste.
+                        </p>
 
-                    <p class="font-extrabold secondary-text-color pb-3">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloribus hic repudiandae accusantium commodi, facilis deserunt optio cumque cupiditate aliquid vitae quasi possimus ab quia id sint, non fugiat neque.
-                    </p>
-
-                    <a href="contact"><button class="button button5"> Meer informatie </button></a>
-                    <p class="font-extrabold primary-text-color pb-9">
-                    </p>
-
-                <!-- <a href="/blog/who-am-i-and-why-am-i-anonymous" class="uppercase bg-blue-500 text-gray-100 text-s 
-                font-extrabold py-3 px-8 rounded-3xl">
-                    find out more
-                </a> -->
-            </div>
+                        <p class="font-extrabold secondary-text-color pb-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus doloribus hic repudiandae accusantium commodi, facilis deserunt optio cumque cupiditate aliquid vitae quasi possimus ab quia id sint, non fugiat neque.
+                        </p>
+                    </div>
             </div>
         </div>
     
@@ -581,9 +580,6 @@
 
                 <p class="font-extrabold pb-3">
                 Welkom bij De Vaan Vitaliteit! Mijn naam is Merel de Vaan en ik ben een gepassioneerde verpleegkundige en voedingsdeskundige. Mijn missie is om bewustwording te creëren op het gebied van vitaliteit en mensen te laten zien welke positieve impact voeding kan hebben op hun welzijn. Met mijn achtergrond en expertise richt ik me op het bevorderen van vitaliteit en het streven naar een gezonde levensstijl.                </p>
-
-
-                <a href="contact"><button class="button button6"> Lees meer </button></a>
                 
 
                 <p class="font-extrabold pb-9">
