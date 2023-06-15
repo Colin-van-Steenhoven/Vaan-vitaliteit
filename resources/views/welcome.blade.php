@@ -546,8 +546,8 @@
             <div class="flex-container bg-white w-full">
                     <div class="images">
                         <div class="image-container">
-                            <img src="/images/devaanvrouw2smap.jpg" alt="Image 1" class="img1 rounded-lg shadow-2xl shadow-black/20 dark:shadow-black/40">
-                            <img src="/images/food.jpg" alt="Image 2" class="img2 rounded-lg shadow-2xl shadow-black/20 dark:shadow-black/40">
+                            <img src="/images/food.jpg" alt="Image 1" class="img1 rounded-lg shadow-2xl shadow-black/20 dark:shadow-black/40">
+                            <img  src="/images/devaanvrouw2smap.jpg" alt="Image 2" class="img2 rounded-lg shadow-2xl shadow-black/20 dark:shadow-black/40">
                         </div>
                     </div>
                     
@@ -714,8 +714,8 @@
             features: ['4 individuele consulten '],
         },
         {
-            name: 'Total Vitality',
-            discretion: 'lorem ipsum',
+            name: 'Traject gericht op verbetering ',
+            discretion: '',
             price: '€287.55' ,
             features: ['6 individuele consulten ', 'inclusief voedingsadvies', 'stressmanagementtips ', 'slaapoptimalisatie'],
         },
