@@ -494,7 +494,7 @@
                     <ul class="md:flex  items-center justify-between text-base text-header-menu font-bold pt-4 md:pt-0">
                         <li><a class="inline-block no-underline primary-text-color py-2 px-4" href="#">Home</a></li>
                         <li><a class="inline-block no-underline primary-text-color py-2 px-4" href="#main1">Bedrijf</a></li>
-                        <li><a class="inline-block no-underline primary-text-color py-2 px-4" href="#">Contact</a></li>
+                        <li><a class="inline-block no-underline primary-text-color py-2 px-4" href="#main5">Contact</a></li>
                         <li><a class="inline-block no-underline primary-text-color py-2 px-4" href="#footer1">Extra info</a></li>
                         <li><a class="inline-block no-underline primary-text-color py-2 px-4" href="#"></a></li>
                     </ul>
@@ -546,8 +546,8 @@
             <div class="flex-container bg-white w-full">
                     <div class="images">
                         <div class="image-container">
-                            <img src="/images/person.png" alt="Image 1" class="img1 rounded-lg shadow-2xl shadow-black/20 dark:shadow-black/40">
-                            <img src="/images/company.jpg" alt="Image 2" class="img2 rounded-lg shadow-2xl shadow-black/20 dark:shadow-black/40">
+                            <img src="/images/devaanvrouw2smap.jpg" alt="Image 1" class="img1 rounded-lg shadow-2xl shadow-black/20 dark:shadow-black/40">
+                            <img src="/images/food.jpg" alt="Image 2" class="img2 rounded-lg shadow-2xl shadow-black/20 dark:shadow-black/40">
                         </div>
                     </div>
                     
@@ -568,7 +568,7 @@
         </div>
     
     <div class=" Borderundersection p-6 mb-28">
-    <div id="main1" class="container ">
+    <div id="main5" class="container ">
         <div class="grid grid-cols-8 grid-rows-2 ">
             <div class=" image3box col-start-2 col-span-2 row-start-1 row-span-2">
                 <img src="/images/My project-1 (2).png" class="Image3 rounded-md" alt="Image3">
