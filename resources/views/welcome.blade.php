@@ -42,6 +42,7 @@
             display: inline-block;
             padding-left: 10px;
             padding-right: 10px;
+            border-radius: 5px;
         }
         #menu-toggle:checked + #menu {
             display: block;
