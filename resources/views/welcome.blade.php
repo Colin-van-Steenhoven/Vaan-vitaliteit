@@ -312,7 +312,7 @@
             }
             to {
                 font-size: 30px;
-                padding: 15px;
+                padding: 13px;
 
             }
             }
@@ -672,7 +672,7 @@
             <template x-for="(feature, i) in plan.features" x-key="i">
               <li class="flex items-start">
                 <svg
-                     class="w-6 h-6 text-yellow-500  flex-shrink-0"
+                     class="w-6 h-6 text-green-600  flex-shrink-0"
                      aria-hidden="true"
                      xmlns="http://www.w3.org/2000/svg"
                      viewBox="0 0 20 20"
@@ -708,15 +708,15 @@
 
         plans: [
         {
-            name: 'Vitaliteitsboost',
+            name: 'Vitality boost',
             discretion: 'Traject gericht op verbetering van leefwijze',
-            price: "€214.95",
+            price: "€214,95",
             features: ['4 individuele consulten '],
         },
         {
             name: 'Total Vitality',
-            discretion: 'Traject gericht op verbetering ',
-            price: '€287.55' ,
+            discretion: ' Uitgebreid traject gericht op verbetering van leefwijze',
+            price: '€287,55' ,
             features: ['6 individuele consulten ', 'inclusief voedingsadvies', 'stressmanagementtips ', 'slaapoptimalisatie'],
         },
         {
