@@ -579,9 +579,10 @@
                         </p>
                     </div>
             </div>
+            <div id="main5"></div>
         </div>
     
-    <div id="main5" class=" Borderundersection mt-20 p-6 mb-28">
+    <div  class=" Borderundersection mt-20 p-6 mb-28">
     <div  class="container ">
         <div class="grid grid-cols-8 grid-rows-2 ">
             <div class=" image3box col-start-2 col-span-2 row-start-1 row-span-2">
@@ -606,10 +607,12 @@
                 find out more
             </a> -->
         </div>
+        
         </div>
-
+        <div id="prijzen"></div>
     </div>
     </div>
+    
     <!-- <div class="container ">
         <div class="border-black border-solid ">
             <h1>wadwaa</h1>
@@ -631,7 +634,7 @@
   <!-- Navbar -->
 
 
-  <main id="prijzen" class="mx-4 my-16">
+  <main  class="mx-4 my-16">
     <div class="text-center" >
       <h1 class="mb-4 text-2xl font-normal md:text-3xl lg:text-4xl">
         Van <span class="font-semibold">werkdruk</span> naar<span class="font-semibold"> werkgeluk</span>
