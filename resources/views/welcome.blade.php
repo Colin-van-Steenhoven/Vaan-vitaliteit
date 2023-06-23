@@ -38,6 +38,10 @@
             font-family: 'Josefin Sans', sans-serif;
             color: black;
             font-weight: 500;
+            background: white;
+            display: inline-block;
+            padding-left: 10px;
+            padding-right: 10px;
         }
         #menu-toggle:checked + #menu {
             display: block;
@@ -576,8 +580,8 @@
             </div>
         </div>
     
-    <div class=" Borderundersection mt-20 p-6 mb-28">
-    <div id="main5" class="container ">
+    <div id="main5" class=" Borderundersection mt-20 p-6 mb-28">
+    <div  class="container ">
         <div class="grid grid-cols-8 grid-rows-2 ">
             <div class=" image3box col-start-2 col-span-2 row-start-1 row-span-2">
                 <img src="/images/devaanvrouw.jpg" class="Image3 rounded-md" alt="Image3">
@@ -626,8 +630,8 @@
   <!-- Navbar -->
 
 
-  <main class="mx-4 my-16">
-    <div class="text-center">
+  <main id="prijzen" class="mx-4 my-16">
+    <div class="text-center" >
       <h1 class="mb-4 text-2xl font-normal md:text-3xl lg:text-4xl">
         Van <span class="font-semibold">werkdruk</span> naar<span class="font-semibold"> werkgeluk</span>
       </h1>
@@ -646,7 +650,7 @@
 
 
     <!-- Plans -->
-    <div id="prijzen"
+    <div 
          class="flex flex-col items-center justify-center mt-16 space-y-8  lg:flex-row lg:items-stretch lg:space-x-8 lg:space-y-0"
          >
       <template x-for="(plan, i) in plans" x-key="i">
