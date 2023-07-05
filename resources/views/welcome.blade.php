@@ -725,7 +725,7 @@
             name: 'Total Vitality',
             discretion: ' Uitgebreid traject gericht op verbetering van leefwijze',
             price: '€287,55' ,
-            features: ['6 individuele consulten ', 'inclusief voedingsadvies', 'stressmanagementtips ', 'slaapoptimalisatie'],
+            features: ['6 individuele consulten ', 'Inclusief voedingsadvies', 'Stressmanagementtips ', 'slaapoptimalisatie'],
         },
         {
             name: 'Team vitality',
