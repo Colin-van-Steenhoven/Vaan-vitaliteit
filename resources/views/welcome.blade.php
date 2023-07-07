@@ -731,7 +731,7 @@
             name: 'Team vitality',
             discretion: 'Vitaliteitsproject op maat voor uw bedrijf',
             price: 'n.o.t.k',
-            features: ['Workshopreeks over voeding, beweging, ontspanning, slaap en ademhaling', 'Persoonlijke begeleiding voor werknemers', 'Persoonlijke coaching voor werknemers', 'evaluaties voor medewerkers'],
+            features: ['Workshopreeks over voeding, beweging, ontspanning, slaap en ademhaling', 'Persoonlijke begeleiding voor werknemers', 'Persoonlijke coaching voor werknemers', 'Evaluaties voor medewerkers'],
         },
         ],
     }
@@ -750,7 +750,7 @@
                 <p>Merel de Vaan</p>
                 <a href="https://www.google.com/maps/place/De+Vaan+Vitaliteit/@51.5867814,4.7824352,17z/data=!4m6!3m5!1s0xf3517659e88f923:0x35d722a8ab4883cd!8m2!3d51.5867781!4d4.7850101!16s%2Fg%2F11tdrlmx20"><p>Claudius Prinsenlaan 12, 4811 DK Breda</p></a>
                 <a href="mailto:vaan-vitaliteit@outlook.com"> <p class="email-id">vaan-vitaliteit@outlook.com</p> </a>  
-                <a href="tel:123-456-7890"> <h4>+31 - 6 12345678</h4> </a>
+                <a href="tel:123-456-7890"> <h4>+31 - 43185665</h4> </a>
             </div>
             <div class="col">
                 <h3 class="primary-text-color">Links <div class="underline"><span></span></div></h3>
