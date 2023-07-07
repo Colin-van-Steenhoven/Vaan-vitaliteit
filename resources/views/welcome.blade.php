@@ -279,7 +279,7 @@
         #headerScrollbg{
             /* background-color: ;  */
             /* background: #ecd5c3 ; */
-            background-image: url("images/My project-1 (3).png");
+            background-image: url("images/img.png");
             padding: 13px; 
             color: transparent;
             text-align: center; 
@@ -551,8 +551,8 @@
             <div class="flex-container bg-white w-full">
                     <div class="images">
                         <div class="image-container">
-                            <img src="/images/food.jpg" alt="Image 1" class="img1 rounded-lg shadow-2xl shadow-black/20 dark:shadow-black/40">
-                            <img  src="/images/devaanvrouw2smap.jpg" alt="Image 2" class="img2 rounded-lg shadow-2xl shadow-black/20 dark:shadow-black/40">
+                            <img src="/images/img1.jpg" alt="Image 1" class="img1 rounded-lg shadow-2xl shadow-black/20 dark:shadow-black/40">
+                            <img  src="/images/img2.jpg" alt="Image 2" class="img2 rounded-lg shadow-2xl shadow-black/20 dark:shadow-black/40">
                         </div>
                     </div>
                     
@@ -586,7 +586,7 @@
     <div  class="container ">
         <div class="grid grid-cols-8 grid-rows-2 ">
             <div class=" image3box col-start-2 col-span-2 row-start-1 row-span-2">
-                <img src="/images/devaanvrouw.jpg" class="Image3 rounded-md" alt="Image3">
+                <img src="/images/img3.jpg" class="Image3 rounded-md" alt="Image3">
             </div>
             <div class="textboxaboutme m-auto sm:m-auto right-0 col-start-5 col-span-4 p-6 top-72 row-start-1 row-span-2 text-left w-5/5 block shadow-2xl  rounded-md">
                 <h2 class="text-4xl font-extrabold pb-7 pt-7 ">Over Mij!</h2>
@@ -741,7 +741,7 @@
     <footer>
         <div id="footer1" class="row">
             <div class="col h-40 secondary-text-color">
-                <img class="footer-logo" src="images/2023-01-18.png" alt="logo">
+                <img class="footer-logo" src="images/logo.png" alt="logo">
                 <p>Van werkdruk naar werkgeluk</p>
             </div>
             <div class="col secondary-text-color">
